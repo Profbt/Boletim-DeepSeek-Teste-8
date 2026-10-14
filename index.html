@@ -4,13 +4,24 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Boletim Digital</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
+  <!-- ===== FUNDO DECORATIVO ===== -->
+  <div class="fundo-decorativo" aria-hidden="true">
+    <span class="mancha mancha-laranja"></span>
+    <span class="mancha mancha-verde"></span>
+    <span class="mancha mancha-azul"></span>
+  </div>
+
   <!-- ===== TELA DE ACESSO (PIN) ===== -->
   <section class="tela-acesso" id="telaAcesso">
     <div class="cartao-acesso">
+      <div class="acesso-logo" aria-hidden="true">📊</div>
       <h1>Boletim Digital</h1>
       <p class="acesso-serie">8º Ano — Turma 8A</p>
       <p class="acesso-chamada">Número de chamada: 12</p>
@@ -36,8 +47,18 @@
   <div id="appBoletim" class="app-boletim oculto">
 
     <header class="cabecalho">
-      <h1>Boletim Digital</h1>
-      <p class="subtitulo">8º Ano — Turma 8A — Chamada 12</p>
+      <div class="cabecalho-interno">
+        <div class="cabecalho-logo" aria-hidden="true">📊</div>
+        <div class="cabecalho-textos">
+          <h1>Boletim Digital</h1>
+          <p class="subtitulo">8º Ano — Turma 8A — Chamada 12</p>
+        </div>
+        <div class="cabecalho-chips" aria-hidden="true">
+          <span class="chip">8º Ano</span>
+          <span class="chip">Turma 8A</span>
+          <span class="chip chip-verde">Nº 12</span>
+        </div>
+      </div>
     </header>
 
     <main class="conteudo">

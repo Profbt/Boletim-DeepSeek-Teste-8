@@ -313,13 +313,29 @@ let graficoFaltas = null;
 /* -------- Referência interna (nunca exibida na página) -------- */
 const REFERENCIA_INTERNA_FALTAS = 350;
 
-/* -------- Cores (identidade do projeto) -------- */
+/* -------- Cores (tema escuro neon) -------- */
 const COR_GRAFICO_LARANJA = "#ff7a18";
-const COR_GRAFICO_LARANJA_ESCURO = "#e0650a";
-const COR_GRAFICO_VERDE = "#22a06b";
-const COR_GRAFICO_PERIGO = "#c0392b";
-const COR_GRAFICO_TEXTO = "#555555";
-const COR_GRAFICO_GRADE = "#e3e6eb";
+const COR_GRAFICO_LARANJA_BRILHO = "#ffa24d";
+const COR_GRAFICO_VERDE = "#22d68a";
+const COR_GRAFICO_PERIGO = "#ff4d5e";
+const COR_GRAFICO_TEXTO = "#a3abc0";
+const COR_GRAFICO_TEXTO_FORTE = "#eef1f8";
+const COR_GRAFICO_GRADE = "rgba(255, 255, 255, 0.08)";
+const COR_GRAFICO_TOOLTIP_FUNDO = "rgba(11, 13, 20, 0.95)";
+
+/* -------- Opções comuns do tooltip (tema escuro) -------- */
+function estiloTooltipGrafico(callbackLabel) {
+  return {
+    backgroundColor: COR_GRAFICO_TOOLTIP_FUNDO,
+    titleColor: COR_GRAFICO_TEXTO_FORTE,
+    bodyColor: COR_GRAFICO_TEXTO_FORTE,
+    borderColor: "rgba(255, 255, 255, 0.15)",
+    borderWidth: 1,
+    padding: 10,
+    cornerRadius: 10,
+    callbacks: { label: callbackLabel }
+  };
+}
 
 /* -------- Gráfico 1: Média por disciplina -------- */
 function atualizarGraficoMedias() {
@@ -372,17 +388,13 @@ function atualizarGraficoMedias() {
       },
       plugins: {
         legend: { display: false },
-        tooltip: {
-          callbacks: {
-            label: function (contexto) {
-              const valor = contexto.parsed.x;
-              if (valor === null || valor === undefined) {
-                return contexto.label + ": sem nota";
-              }
-              return contexto.label + ": " + formatarNota(valor);
-            }
+        tooltip: estiloTooltipGrafico(function (contexto) {
+          const valor = contexto.parsed.x;
+          if (valor === null || valor === undefined) {
+            return contexto.label + ": sem nota";
           }
-        }
+          return contexto.label + ": " + formatarNota(valor);
+        })
       }
     }
   });
@@ -410,10 +422,12 @@ function atualizarGraficoEvolucao() {
         {
           label: "Média geral",
           data: [mediaTri1, mediaTri2, mediaTri3],
-          borderColor: COR_GRAFICO_LARANJA,
-          backgroundColor: COR_GRAFICO_LARANJA,
-          pointBackgroundColor: COR_GRAFICO_LARANJA_ESCURO,
-          pointRadius: 5,
+          borderColor: COR_GRAFICO_VERDE,
+          backgroundColor: COR_GRAFICO_VERDE,
+          pointBackgroundColor: COR_GRAFICO_LARANJA_BRILHO,
+          pointBorderColor: COR_GRAFICO_LARANJA,
+          pointRadius: 6,
+          borderWidth: 3,
           tension: 0.25,
           spanGaps: false
         }
@@ -436,17 +450,13 @@ function atualizarGraficoEvolucao() {
       },
       plugins: {
         legend: { display: false },
-        tooltip: {
-          callbacks: {
-            label: function (contexto) {
-              const valor = contexto.parsed.y;
-              if (valor === null || valor === undefined) {
-                return contexto.label + ": sem nota";
-              }
-              return contexto.label + ": " + formatarNota(valor);
-            }
+        tooltip: estiloTooltipGrafico(function (contexto) {
+          const valor = contexto.parsed.y;
+          if (valor === null || valor === undefined) {
+            return contexto.label + ": sem nota";
           }
-        }
+          return contexto.label + ": " + formatarNota(valor);
+        })
       }
     }
   });
@@ -526,13 +536,9 @@ function atualizarGraficoFaltas() {
       },
       plugins: {
         legend: { display: false },
-        tooltip: {
-          callbacks: {
-            label: function (contexto) {
-              return contexto.label + ": " + contexto.parsed.y + " faltas";
-            }
-          }
-        }
+        tooltip: estiloTooltipGrafico(function (contexto) {
+          return contexto.label + ": " + contexto.parsed.y + " faltas";
+        })
       }
     }
   });
