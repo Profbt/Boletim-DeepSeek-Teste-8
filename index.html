@@ -10,47 +10,15 @@
 
   <header class="cabecalho">
     <h1>Boletim Digital</h1>
-    <p class="subtitulo">8º Ano — Turma 8A — Chamada 12</p>
+    <p class="subtitulo">8º Ano — Estudante Exemplo</p>
   </header>
 
-  <!-- ===== TELA DE ACESSO (PIN) ===== -->
-  <section id="telaAcesso" class="tela-acesso">
-    <div class="cartao-acesso">
-      <h2>Acesso ao Boletim</h2>
-
-      <div class="info-aluno">
-        <p><strong>Série:</strong> 8º Ano</p>
-        <p><strong>Turma:</strong> 8A</p>
-        <p><strong>Número de chamada:</strong> 12</p>
-      </div>
-
-      <label for="campoPin">Digite seu PIN</label>
-      <input
-        type="password"
-        id="campoPin"
-        class="campo-pin"
-        inputmode="numeric"
-        autocomplete="off"
-        maxlength="12"
-        placeholder="PIN"
-      />
-
-      <button id="botaoEntrar" class="botao-entrar">Entrar</button>
-
-      <p id="mensagemAcesso" class="mensagem-acesso"></p>
-    </div>
-  </section>
-
-  <!-- ===== CONTEÚDO DO BOLETIM ===== -->
-  <main id="conteudoBoletim" class="conteudo oculto">
+  <main class="conteudo">
 
     <section class="cards-resumo" id="cardsResumo"></section>
 
     <section class="area-tabela">
-      <div class="topo-tabela">
-        <h2>Notas por disciplina</h2>
-        <button id="botaoAlterar" class="botao-acao">Alterar dados</button>
-      </div>
+      <h2>Notas por disciplina</h2>
 
       <div class="tabela-responsiva">
         <table class="tabela-boletim">
@@ -67,38 +35,6 @@
           </thead>
           <tbody id="corpoTabela"></tbody>
         </table>
-      </div>
-
-      <div id="areaEdicao" class="area-edicao oculto">
-        <h3>Editar notas e faltas</h3>
-        <p class="aviso-edicao">
-          Notas: 0 a 10 (aceita <code>7</code>, <code>7,5</code>, <code>8.2</code>, <code>10</code> ou vazio).
-          Faltas: apenas números inteiros ≥ 0.
-        </p>
-
-        <div class="tabela-responsiva">
-          <table class="tabela-boletim tabela-edicao">
-            <thead>
-              <tr>
-                <th>Disciplina</th>
-                <th>1º Tri</th>
-                <th>2º Tri</th>
-                <th>3º Tri</th>
-                <th>Faltas 1º</th>
-                <th>Faltas 2º</th>
-                <th>Faltas 3º</th>
-              </tr>
-            </thead>
-            <tbody id="corpoEdicao"></tbody>
-          </table>
-        </div>
-
-        <div class="botoes-edicao">
-          <button id="botaoSalvar" class="botao-acao botao-salvar">Salvar alterações</button>
-          <button id="botaoCancelar" class="botao-acao botao-cancelar">Cancelar</button>
-        </div>
-
-        <p id="mensagemEdicao" class="mensagem-edicao"></p>
       </div>
     </section>
 
