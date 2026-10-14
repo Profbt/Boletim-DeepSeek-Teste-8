@@ -16,10 +16,6 @@ let pinSessao = null;
 let disciplinasProcessadas = [];
 let modoEdicao = false;
 
-/* -------- INSTÂNCIAS DOS GRÁFICOS -------- */
-let graficoMedias = null;
-let graficoEvolucao = null;
-
 /* -------- DADOS BRUTOS LOCAIS (fallback) --------
    tri1 = 1º trimestre
    tri2 = 2º trimestre
@@ -304,146 +300,11 @@ function montarCards() {
   });
 }
 
-/* -------- FUNÇÕES EXCLUSIVAS DOS GRÁFICOS (SOMENTE LEITURA) -------- */
-
-function atualizarGraficoMedias() {
-  const canvas = document.getElementById("graficoMediasDisciplinas");
-  if (!canvas || typeof Chart === "undefined") return;
-
-  if (graficoMedias) {
-    graficoMedias.destroy();
-  }
-
-  const rotulos = disciplinasProcessadas.map((d) => d.disciplina);
-  const valores = disciplinasProcessadas.map((d) => d.media);
-
-  const coresFundo = valores.map((m) =>
-    m !== null && m >= 6 ? "rgba(34, 160, 107, 0.85)" : "rgba(224, 101, 10, 0.85)"
-  );
-  const coresBorda = valores.map((m) =>
-    m !== null && m >= 6 ? "#22a06b" : "#e0650a"
-  );
-
-  const ctx = canvas.getContext("2d");
-  graficoMedias = new Chart(ctx, {
-    type: "bar",
-    data: {
-      labels: rotulos,
-      datasets: [
-        {
-          label: "Média",
-          data: valores,
-          backgroundColor: coresFundo,
-          borderColor: coresBorda,
-          borderWidth: 1,
-          borderRadius: 4
-        }
-      ]
-    },
-    options: {
-      indexAxis: "y",
-      responsive: true,
-      maintainAspectRatio: false,
-      plugins: {
-        legend: { display: false },
-        tooltip: {
-          callbacks: {
-            label: function (context) {
-              const val = context.raw;
-              if (val === null || val === undefined) return " Sem nota";
-              return " Média: " + val.toFixed(1).replace(".", ",");
-            }
-          }
-        }
-      },
-      scales: {
-        x: {
-          min: 0,
-          max: 10,
-          ticks: { stepSize: 1 }
-        }
-      }
-    }
-  });
-}
-
-function atualizarGraficoEvolucao() {
-  const canvas = document.getElementById("graficoEvolucaoTrimestres");
-  if (!canvas || typeof Chart === "undefined") return;
-
-  if (graficoEvolucao) {
-    graficoEvolucao.destroy();
-  }
-
-  const calcularMediaTrimestre = (chave) => {
-    const notas = disciplinasProcessadas
-      .map((d) => d[chave])
-      .filter((n) => n !== null);
-    if (notas.length === 0) return null;
-    return notas.reduce((acc, n) => acc + n, 0) / notas.length;
-  };
-
-  const mTri1 = calcularMediaTrimestre("tri1");
-  const mTri2 = calcularMediaTrimestre("tri2");
-  const mTri3 = calcularMediaTrimestre("tri3");
-
-  const ctx = canvas.getContext("2d");
-  graficoEvolucao = new Chart(ctx, {
-    type: "line",
-    data: {
-      labels: ["1º Tri", "2º Tri", "3º Tri"],
-      datasets: [
-        {
-          label: "Média Geral",
-          data: [mTri1, mTri2, mTri3],
-          borderColor: "#ff7a18",
-          backgroundColor: "rgba(255, 122, 24, 0.15)",
-          borderWidth: 3,
-          pointRadius: 6,
-          pointBackgroundColor: "#e0650a",
-          tension: 0.2,
-          fill: true,
-          spanGaps: false
-        }
-      ]
-    },
-    options: {
-      responsive: true,
-      maintainAspectRatio: false,
-      plugins: {
-        legend: { display: false },
-        tooltip: {
-          callbacks: {
-            label: function (context) {
-              const val = context.raw;
-              if (val === null || val === undefined) return " Sem notas lançadas";
-              return " Média geral: " + val.toFixed(1).replace(".", ",");
-            }
-          }
-        }
-      },
-      scales: {
-        y: {
-          min: 0,
-          max: 10,
-          ticks: { stepSize: 1 }
-        }
-      }
-    }
-  });
-}
-
-function atualizarGraficos() {
-  atualizarGraficoMedias();
-  atualizarGraficoEvolucao();
-}
-
 /* -------- RECONSTRUIR TELA -------- */
 function reconstruirTela() {
   limparTela();
   montarCards();
   montarTabela();
-  atualizarGraficos();
 }
 
 /* -------- COLETA DE DADOS DA TELA (edição) -------- */
