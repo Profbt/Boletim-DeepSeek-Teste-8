@@ -15,27 +15,81 @@
 
   <main class="conteudo">
 
-    <section class="cards-resumo" id="cardsResumo"></section>
-
-    <section class="area-tabela">
-      <h2>Notas por disciplina</h2>
-
-      <div class="tabela-responsiva">
-        <table class="tabela-boletim">
-          <thead>
-            <tr>
-              <th>Disciplina</th>
-              <th>1º Tri</th>
-              <th>2º Tri</th>
-              <th>3º Tri</th>
-              <th>Média</th>
-              <th>Faltas</th>
-              <th>Situação</th>
-            </tr>
-          </thead>
-          <tbody id="corpoTabela"></tbody>
-        </table>
+    <!-- ÁREA DE ACESSO / LOGIN PIN -->
+    <section class="area-login" id="areaLogin">
+      <div class="card card-login">
+        <h2>Acesso ao Boletim</h2>
+        <p class="login-info">Turma: <strong>8A</strong> | Chamada: <strong>12</strong></p>
+        <div class="form-login">
+          <label for="campoPin">Digite seu PIN:</label>
+          <input type="password" id="campoPin" maxlength="10" placeholder="PIN" />
+          <button type="button" id="btnEntrar" class="btn-primario">Entrar</button>
+        </div>
+        <p id="msgLogin" class="msg-status"></p>
       </div>
+    </section>
+
+    <!-- ÁREA DO BOLETIM (OCULTA INICIALMENTE) -->
+    <section class="area-boletim" id="areaBoletim" style="display: none;">
+      
+      <div class="barra-acoes">
+        <button type="button" id="btnEditar" class="btn-secundario">Alterar dados</button>
+      </div>
+
+      <section class="cards-resumo" id="cardsResumo"></section>
+
+      <section class="area-tabela">
+        <h2>Notas por disciplina</h2>
+
+        <div class="tabela-responsiva">
+          <table class="tabela-boletim">
+            <thead>
+              <tr>
+                <th>Disciplina</th>
+                <th>1º Tri</th>
+                <th>2º Tri</th>
+                <th>3º Tri</th>
+                <th>Média</th>
+                <th>Faltas</th>
+                <th>Situação</th>
+              </tr>
+            </thead>
+            <tbody id="corpoTabela"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- PAINEL DE EDIÇÃO DE DADOS -->
+      <section class="area-edicao" id="areaEdicao" style="display: none;">
+        <div class="card card-edicao">
+          <h2>Editar Notas e Faltas</h2>
+          <p class="subtitulo-edicao">Altere as notas (0 a 10) e faltas de cada disciplina.</p>
+          <div id="msgEdicao" class="msg-status"></div>
+          
+          <div class="tabela-responsiva">
+            <table class="tabela-boletim tabela-edicao">
+              <thead>
+                <tr>
+                  <th>Disciplina</th>
+                  <th>1º Tri (Nota)</th>
+                  <th>2º Tri (Nota)</th>
+                  <th>3º Tri (Nota)</th>
+                  <th>1º Tri (Faltas)</th>
+                  <th>2º Tri (Faltas)</th>
+                  <th>3º Tri (Faltas)</th>
+                </tr>
+              </thead>
+              <tbody id="corpoEdicao"></tbody>
+            </table>
+          </div>
+
+          <div class="acoes-edicao">
+            <button type="button" id="btnSalvar" class="btn-primario">Salvar alterações</button>
+            <button type="button" id="btnCancelar" class="btn-secundario">Cancelar</button>
+          </div>
+        </div>
+      </section>
+
     </section>
 
   </main>
