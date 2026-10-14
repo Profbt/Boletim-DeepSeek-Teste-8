@@ -1,3693 +1,533 @@
-[{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 6,
-	"startColumn": 20,
-	"endLineNumber": 6,
-	"endColumn": 21,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 17,
-	"startColumn": 19,
-	"endLineNumber": 17,
-	"endColumn": 20,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 18,
-	"startColumn": 100,
-	"endLineNumber": 18,
-	"endColumn": 101,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 19,
-	"startColumn": 15,
-	"endLineNumber": 19,
-	"endColumn": 16,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 19,
-	"startColumn": 100,
-	"endLineNumber": 19,
-	"endColumn": 101,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 20,
-	"startColumn": 15,
-	"endLineNumber": 20,
-	"endColumn": 16,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 20,
-	"startColumn": 100,
-	"endLineNumber": 20,
-	"endColumn": 101,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 21,
-	"startColumn": 15,
-	"endLineNumber": 21,
-	"endColumn": 16,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 21,
-	"startColumn": 100,
-	"endLineNumber": 21,
-	"endColumn": 101,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 22,
-	"startColumn": 15,
-	"endLineNumber": 22,
-	"endColumn": 16,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 22,
-	"startColumn": 100,
-	"endLineNumber": 22,
-	"endColumn": 101,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 23,
-	"startColumn": 15,
-	"endLineNumber": 23,
-	"endColumn": 16,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 23,
-	"startColumn": 100,
-	"endLineNumber": 23,
-	"endColumn": 101,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 24,
-	"startColumn": 15,
-	"endLineNumber": 24,
-	"endColumn": 16,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 24,
-	"startColumn": 102,
-	"endLineNumber": 24,
-	"endColumn": 103,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 25,
-	"startColumn": 15,
-	"endLineNumber": 25,
-	"endColumn": 16,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 25,
-	"startColumn": 101,
-	"endLineNumber": 25,
-	"endColumn": 102,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 26,
-	"startColumn": 15,
-	"endLineNumber": 26,
-	"endColumn": 16,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 26,
-	"startColumn": 101,
-	"endLineNumber": 26,
-	"endColumn": 102,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 27,
-	"startColumn": 15,
-	"endLineNumber": 27,
-	"endColumn": 16,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 27,
-	"startColumn": 100,
-	"endLineNumber": 27,
-	"endColumn": 101,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 28,
-	"startColumn": 15,
-	"endLineNumber": 28,
-	"endColumn": 16,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 28,
-	"startColumn": 100,
-	"endLineNumber": 28,
-	"endColumn": 101,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 29,
-	"startColumn": 15,
-	"endLineNumber": 29,
-	"endColumn": 16,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 29,
-	"startColumn": 100,
-	"endLineNumber": 29,
-	"endColumn": 101,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 30,
-	"startColumn": 15,
-	"endLineNumber": 30,
-	"endColumn": 16,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 30,
-	"startColumn": 100,
-	"endLineNumber": 30,
-	"endColumn": 101,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 31,
-	"startColumn": 15,
-	"endLineNumber": 31,
-	"endColumn": 16,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 31,
-	"startColumn": 100,
-	"endLineNumber": 31,
-	"endColumn": 101,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 32,
-	"startColumn": 15,
-	"endLineNumber": 32,
-	"endColumn": 16,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 33,
-	"startColumn": 1,
-	"endLineNumber": 33,
-	"endColumn": 2,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 36,
-	"startColumn": 32,
-	"endLineNumber": 36,
-	"endColumn": 33,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 39,
-	"startColumn": 15,
-	"endLineNumber": 39,
-	"endColumn": 16,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 40,
-	"startColumn": 23,
-	"endLineNumber": 40,
-	"endColumn": 24,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 43,
-	"startColumn": 24,
-	"endLineNumber": 43,
-	"endColumn": 25,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 46,
-	"startColumn": 3,
-	"endLineNumber": 46,
-	"endColumn": 4,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 48,
-	"startColumn": 6,
-	"endLineNumber": 48,
-	"endColumn": 7,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 50,
-	"startColumn": 3,
-	"endLineNumber": 50,
-	"endColumn": 4,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 52,
-	"startColumn": 16,
-	"endLineNumber": 52,
-	"endColumn": 17,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 54,
-	"startColumn": 6,
-	"endLineNumber": 54,
-	"endColumn": 7,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 56,
-	"startColumn": 3,
-	"endLineNumber": 56,
-	"endColumn": 4,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 58,
-	"startColumn": 6,
-	"endLineNumber": 58,
-	"endColumn": 7,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 60,
-	"startColumn": 3,
-	"endLineNumber": 60,
-	"endColumn": 4,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 62,
-	"startColumn": 6,
-	"endLineNumber": 62,
-	"endColumn": 7,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 64,
-	"startColumn": 3,
-	"endLineNumber": 64,
-	"endColumn": 4,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 66,
-	"startColumn": 14,
-	"endLineNumber": 66,
-	"endColumn": 15,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 67,
-	"startColumn": 1,
-	"endLineNumber": 67,
-	"endColumn": 2,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 70,
-	"startColumn": 23,
-	"endLineNumber": 70,
-	"endColumn": 24,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 73,
-	"startColumn": 6,
-	"endLineNumber": 73,
-	"endColumn": 7,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 75,
-	"startColumn": 3,
-	"endLineNumber": 75,
-	"endColumn": 4,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 77,
-	"startColumn": 14,
-	"endLineNumber": 77,
-	"endColumn": 15,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 78,
-	"startColumn": 31,
-	"endLineNumber": 78,
-	"endColumn": 32,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 79,
-	"startColumn": 1,
-	"endLineNumber": 79,
-	"endColumn": 2,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 82,
-	"startColumn": 25,
-	"endLineNumber": 82,
-	"endColumn": 26,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 85,
-	"startColumn": 3,
-	"endLineNumber": 85,
-	"endColumn": 4,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 86,
-	"startColumn": 6,
-	"endLineNumber": 86,
-	"endColumn": 7,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 88,
-	"startColumn": 3,
-	"endLineNumber": 88,
-	"endColumn": 4,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-semicolonexpected",
-	"severity": 8,
-	"message": "ponto e vírgula esperado",
-	"source": "css",
-	"startLineNumber": 89,
-	"startColumn": 36,
-	"endLineNumber": 89,
-	"endColumn": 37,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 90,
-	"startColumn": 1,
-	"endLineNumber": 90,
-	"endColumn": 2,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 93,
-	"startColumn": 22,
-	"endLineNumber": 93,
-	"endColumn": 23,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 95,
-	"startColumn": 22,
-	"endLineNumber": 95,
-	"endColumn": 23,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 96,
-	"startColumn": 1,
-	"endLineNumber": 96,
-	"endColumn": 2,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 99,
-	"startColumn": 37,
-	"endLineNumber": 99,
-	"endColumn": 38,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 102,
-	"startColumn": 16,
-	"endLineNumber": 102,
-	"endColumn": 17,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 103,
-	"startColumn": 16,
-	"endLineNumber": 103,
-	"endColumn": 17,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-semicolonexpected",
-	"severity": 8,
-	"message": "ponto e vírgula esperado",
-	"source": "css",
-	"startLineNumber": 106,
-	"startColumn": 23,
-	"endLineNumber": 106,
-	"endColumn": 24,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 112,
-	"startColumn": 3,
-	"endLineNumber": 112,
-	"endColumn": 4,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 113,
-	"startColumn": 1,
-	"endLineNumber": 113,
-	"endColumn": 2,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 116,
-	"startColumn": 30,
-	"endLineNumber": 116,
-	"endColumn": 31,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 119,
-	"startColumn": 16,
-	"endLineNumber": 119,
-	"endColumn": 17,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 120,
-	"startColumn": 16,
-	"endLineNumber": 120,
-	"endColumn": 17,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 122,
-	"startColumn": 17,
-	"endLineNumber": 122,
-	"endColumn": 18,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 123,
-	"startColumn": 25,
-	"endLineNumber": 123,
-	"endColumn": 26,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 124,
-	"startColumn": 23,
-	"endLineNumber": 124,
-	"endColumn": 24,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 125,
-	"startColumn": 20,
-	"endLineNumber": 125,
-	"endColumn": 21,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-semicolonexpected",
-	"severity": 8,
-	"message": "ponto e vírgula esperado",
-	"source": "css",
-	"startLineNumber": 128,
-	"startColumn": 23,
-	"endLineNumber": 128,
-	"endColumn": 24,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 137,
-	"startColumn": 3,
-	"endLineNumber": 137,
-	"endColumn": 4,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 138,
-	"startColumn": 1,
-	"endLineNumber": 138,
-	"endColumn": 2,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 141,
-	"startColumn": 22,
-	"endLineNumber": 141,
-	"endColumn": 23,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 143,
-	"startColumn": 19,
-	"endLineNumber": 143,
-	"endColumn": 20,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 145,
-	"startColumn": 26,
-	"endLineNumber": 145,
-	"endColumn": 27,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 148,
-	"startColumn": 18,
-	"endLineNumber": 148,
-	"endColumn": 19,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 149,
-	"startColumn": 24,
-	"endLineNumber": 149,
-	"endColumn": 25,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 150,
-	"startColumn": 22,
-	"endLineNumber": 150,
-	"endColumn": 23,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 152,
-	"startColumn": 15,
-	"endLineNumber": 152,
-	"endColumn": 16,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 153,
-	"startColumn": 21,
-	"endLineNumber": 153,
-	"endColumn": 22,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 154,
-	"startColumn": 22,
-	"endLineNumber": 154,
-	"endColumn": 23,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 156,
-	"startColumn": 15,
-	"endLineNumber": 156,
-	"endColumn": 16,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 157,
-	"startColumn": 21,
-	"endLineNumber": 157,
-	"endColumn": 22,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 158,
-	"startColumn": 22,
-	"endLineNumber": 158,
-	"endColumn": 23,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 160,
-	"startColumn": 15,
-	"endLineNumber": 160,
-	"endColumn": 16,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 161,
-	"startColumn": 21,
-	"endLineNumber": 161,
-	"endColumn": 22,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 162,
-	"startColumn": 22,
-	"endLineNumber": 162,
-	"endColumn": 23,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 164,
-	"startColumn": 19,
-	"endLineNumber": 164,
-	"endColumn": 20,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 165,
-	"startColumn": 20,
-	"endLineNumber": 165,
-	"endColumn": 21,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 166,
-	"startColumn": 26,
-	"endLineNumber": 166,
-	"endColumn": 27,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 167,
-	"startColumn": 24,
-	"endLineNumber": 167,
-	"endColumn": 25,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 168,
-	"startColumn": 22,
-	"endLineNumber": 168,
-	"endColumn": 23,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 170,
-	"startColumn": 20,
-	"endLineNumber": 170,
-	"endColumn": 21,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 171,
-	"startColumn": 26,
-	"endLineNumber": 171,
-	"endColumn": 27,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 172,
-	"startColumn": 22,
-	"endLineNumber": 172,
-	"endColumn": 23,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 174,
-	"startColumn": 17,
-	"endLineNumber": 174,
-	"endColumn": 18,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 175,
-	"startColumn": 19,
-	"endLineNumber": 175,
-	"endColumn": 20,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 176,
-	"startColumn": 23,
-	"endLineNumber": 176,
-	"endColumn": 24,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 176,
-	"startColumn": 55,
-	"endLineNumber": 176,
-	"endColumn": 56,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 177,
-	"startColumn": 25,
-	"endLineNumber": 177,
-	"endColumn": 26,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 178,
-	"startColumn": 22,
-	"endLineNumber": 178,
-	"endColumn": 23,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 179,
-	"startColumn": 22,
-	"endLineNumber": 179,
-	"endColumn": 23,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 181,
-	"startColumn": 22,
-	"endLineNumber": 181,
-	"endColumn": 23,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 182,
-	"startColumn": 3,
-	"endLineNumber": 182,
-	"endColumn": 4,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 183,
-	"startColumn": 1,
-	"endLineNumber": 183,
-	"endColumn": 2,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 186,
-	"startColumn": 21,
-	"endLineNumber": 186,
-	"endColumn": 22,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 188,
-	"startColumn": 23,
-	"endLineNumber": 188,
-	"endColumn": 24,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 190,
-	"startColumn": 23,
-	"endLineNumber": 190,
-	"endColumn": 24,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 194,
-	"startColumn": 20,
-	"endLineNumber": 194,
-	"endColumn": 21,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 199,
-	"startColumn": 21,
-	"endLineNumber": 199,
-	"endColumn": 22,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 204,
-	"startColumn": 23,
-	"endLineNumber": 204,
-	"endColumn": 24,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 208,
-	"startColumn": 17,
-	"endLineNumber": 208,
-	"endColumn": 18,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 212,
-	"startColumn": 15,
-	"endLineNumber": 212,
-	"endColumn": 16,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 218,
-	"startColumn": 6,
-	"endLineNumber": 218,
-	"endColumn": 7,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 220,
-	"startColumn": 13,
-	"endLineNumber": 220,
-	"endColumn": 14,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 224,
-	"startColumn": 6,
-	"endLineNumber": 224,
-	"endColumn": 7,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 226,
-	"startColumn": 13,
-	"endLineNumber": 226,
-	"endColumn": 14,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 230,
-	"startColumn": 6,
-	"endLineNumber": 230,
-	"endColumn": 7,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 232,
-	"startColumn": 13,
-	"endLineNumber": 232,
-	"endColumn": 14,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 236,
-	"startColumn": 6,
-	"endLineNumber": 236,
-	"endColumn": 7,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 238,
-	"startColumn": 13,
-	"endLineNumber": 238,
-	"endColumn": 14,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 243,
-	"startColumn": 3,
-	"endLineNumber": 243,
-	"endColumn": 4,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 245,
-	"startColumn": 16,
-	"endLineNumber": 245,
-	"endColumn": 17,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 247,
-	"startColumn": 19,
-	"endLineNumber": 247,
-	"endColumn": 20,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 249,
-	"startColumn": 19,
-	"endLineNumber": 249,
-	"endColumn": 20,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 250,
-	"startColumn": 23,
-	"endLineNumber": 250,
-	"endColumn": 24,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 251,
-	"startColumn": 25,
-	"endLineNumber": 251,
-	"endColumn": 26,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 253,
-	"startColumn": 18,
-	"endLineNumber": 253,
-	"endColumn": 19,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 254,
-	"startColumn": 22,
-	"endLineNumber": 254,
-	"endColumn": 23,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 255,
-	"startColumn": 24,
-	"endLineNumber": 255,
-	"endColumn": 25,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 257,
-	"startColumn": 17,
-	"endLineNumber": 257,
-	"endColumn": 18,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 258,
-	"startColumn": 21,
-	"endLineNumber": 258,
-	"endColumn": 22,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 259,
-	"startColumn": 23,
-	"endLineNumber": 259,
-	"endColumn": 24,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 261,
-	"startColumn": 20,
-	"endLineNumber": 261,
-	"endColumn": 21,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 262,
-	"startColumn": 20,
-	"endLineNumber": 262,
-	"endColumn": 21,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 263,
-	"startColumn": 20,
-	"endLineNumber": 263,
-	"endColumn": 21,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 265,
-	"startColumn": 26,
-	"endLineNumber": 265,
-	"endColumn": 27,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 266,
-	"startColumn": 3,
-	"endLineNumber": 266,
-	"endColumn": 4,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 267,
-	"startColumn": 1,
-	"endLineNumber": 267,
-	"endColumn": 2,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 270,
-	"startColumn": 23,
-	"endLineNumber": 270,
-	"endColumn": 24,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 272,
-	"startColumn": 14,
-	"endLineNumber": 272,
-	"endColumn": 15,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 273,
-	"startColumn": 15,
-	"endLineNumber": 273,
-	"endColumn": 16,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 274,
-	"startColumn": 1,
-	"endLineNumber": 274,
-	"endColumn": 2,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 277,
-	"startColumn": 29,
-	"endLineNumber": 277,
-	"endColumn": 30,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 279,
-	"startColumn": 18,
-	"endLineNumber": 279,
-	"endColumn": 19,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 280,
-	"startColumn": 21,
-	"endLineNumber": 280,
-	"endColumn": 22,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 282,
-	"startColumn": 6,
-	"endLineNumber": 282,
-	"endColumn": 7,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 284,
-	"startColumn": 24,
-	"endLineNumber": 284,
-	"endColumn": 25,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 285,
-	"startColumn": 11,
-	"endLineNumber": 285,
-	"endColumn": 12,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 286,
-	"startColumn": 3,
-	"endLineNumber": 286,
-	"endColumn": 4,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 288,
-	"startColumn": 24,
-	"endLineNumber": 288,
-	"endColumn": 25,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 289,
-	"startColumn": 22,
-	"endLineNumber": 289,
-	"endColumn": 23,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-colonexpected",
-	"severity": 8,
-	"message": "dois-pontos esperados",
-	"source": "css",
-	"startLineNumber": 292,
-	"startColumn": 11,
-	"endLineNumber": 292,
-	"endColumn": 19,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-semicolonexpected",
-	"severity": 8,
-	"message": "ponto e vírgula esperado",
-	"source": "css",
-	"startLineNumber": 293,
-	"startColumn": 15,
-	"endLineNumber": 293,
-	"endColumn": 21,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 294,
-	"startColumn": 54,
-	"endLineNumber": 294,
-	"endColumn": 55,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 295,
-	"startColumn": 11,
-	"endLineNumber": 295,
-	"endColumn": 12,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 299,
-	"startColumn": 8,
-	"endLineNumber": 299,
-	"endColumn": 9,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 302,
-	"startColumn": 8,
-	"endLineNumber": 302,
-	"endColumn": 9,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 304,
-	"startColumn": 26,
-	"endLineNumber": 304,
-	"endColumn": 27,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 305,
-	"startColumn": 13,
-	"endLineNumber": 305,
-	"endColumn": 14,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 306,
-	"startColumn": 5,
-	"endLineNumber": 306,
-	"endColumn": 6,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 308,
-	"startColumn": 8,
-	"endLineNumber": 308,
-	"endColumn": 9,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 310,
-	"startColumn": 26,
-	"endLineNumber": 310,
-	"endColumn": 27,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 311,
-	"startColumn": 13,
-	"endLineNumber": 311,
-	"endColumn": 14,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 312,
-	"startColumn": 5,
-	"endLineNumber": 312,
-	"endColumn": 6,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 314,
-	"startColumn": 8,
-	"endLineNumber": 314,
-	"endColumn": 9,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 316,
-	"startColumn": 26,
-	"endLineNumber": 316,
-	"endColumn": 27,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 317,
-	"startColumn": 13,
-	"endLineNumber": 317,
-	"endColumn": 14,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 318,
-	"startColumn": 5,
-	"endLineNumber": 318,
-	"endColumn": 6,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 320,
-	"startColumn": 21,
-	"endLineNumber": 320,
-	"endColumn": 22,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 322,
-	"startColumn": 15,
-	"endLineNumber": 322,
-	"endColumn": 16,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 323,
-	"startColumn": 20,
-	"endLineNumber": 323,
-	"endColumn": 21,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 325,
-	"startColumn": 8,
-	"endLineNumber": 325,
-	"endColumn": 9,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 327,
-	"startColumn": 5,
-	"endLineNumber": 327,
-	"endColumn": 6,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-colonexpected",
-	"severity": 8,
-	"message": "dois-pontos esperados",
-	"source": "css",
-	"startLineNumber": 328,
-	"startColumn": 25,
-	"endLineNumber": 328,
-	"endColumn": 26,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 331,
-	"startColumn": 28,
-	"endLineNumber": 331,
-	"endColumn": 29,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 332,
-	"startColumn": 28,
-	"endLineNumber": 332,
-	"endColumn": 29,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 333,
-	"startColumn": 18,
-	"endLineNumber": 333,
-	"endColumn": 19,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 335,
-	"startColumn": 3,
-	"endLineNumber": 335,
-	"endColumn": 4,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 335,
-	"startColumn": 11,
-	"endLineNumber": 335,
-	"endColumn": 12,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 337,
-	"startColumn": 24,
-	"endLineNumber": 337,
-	"endColumn": 25,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 338,
-	"startColumn": 3,
-	"endLineNumber": 338,
-	"endColumn": 4,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 342,
-	"startColumn": 28,
-	"endLineNumber": 342,
-	"endColumn": 29,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 344,
-	"startColumn": 25,
-	"endLineNumber": 344,
-	"endColumn": 26,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 346,
-	"startColumn": 28,
-	"endLineNumber": 346,
-	"endColumn": 29,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 349,
-	"startColumn": 18,
-	"endLineNumber": 349,
-	"endColumn": 19,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 350,
-	"startColumn": 24,
-	"endLineNumber": 350,
-	"endColumn": 25,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 351,
-	"startColumn": 22,
-	"endLineNumber": 351,
-	"endColumn": 23,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 353,
-	"startColumn": 14,
-	"endLineNumber": 353,
-	"endColumn": 15,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 354,
-	"startColumn": 14,
-	"endLineNumber": 354,
-	"endColumn": 15,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 355,
-	"startColumn": 14,
-	"endLineNumber": 355,
-	"endColumn": 15,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 357,
-	"startColumn": 22,
-	"endLineNumber": 357,
-	"endColumn": 23,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 366,
-	"startColumn": 28,
-	"endLineNumber": 366,
-	"endColumn": 29,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 367,
-	"startColumn": 3,
-	"endLineNumber": 367,
-	"endColumn": 4,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 368,
-	"startColumn": 1,
-	"endLineNumber": 368,
-	"endColumn": 2,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 370,
-	"startColumn": 26,
-	"endLineNumber": 370,
-	"endColumn": 27,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 372,
-	"startColumn": 18,
-	"endLineNumber": 372,
-	"endColumn": 19,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 373,
-	"startColumn": 13,
-	"endLineNumber": 373,
-	"endColumn": 14,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 374,
-	"startColumn": 6,
-	"endLineNumber": 374,
-	"endColumn": 7,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 376,
-	"startColumn": 3,
-	"endLineNumber": 376,
-	"endColumn": 4,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-semicolonexpected",
-	"severity": 8,
-	"message": "ponto e vírgula esperado",
-	"source": "css",
-	"startLineNumber": 377,
-	"startColumn": 31,
-	"endLineNumber": 377,
-	"endColumn": 32,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 378,
-	"startColumn": 1,
-	"endLineNumber": 378,
-	"endColumn": 2,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 380,
-	"startColumn": 27,
-	"endLineNumber": 380,
-	"endColumn": 28,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 382,
-	"startColumn": 18,
-	"endLineNumber": 382,
-	"endColumn": 19,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 383,
-	"startColumn": 6,
-	"endLineNumber": 383,
-	"endColumn": 7,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 385,
-	"startColumn": 3,
-	"endLineNumber": 385,
-	"endColumn": 4,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 386,
-	"startColumn": 13,
-	"endLineNumber": 386,
-	"endColumn": 14,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 387,
-	"startColumn": 6,
-	"endLineNumber": 387,
-	"endColumn": 7,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-semicolonexpected",
-	"severity": 8,
-	"message": "ponto e vírgula esperado",
-	"source": "css",
-	"startLineNumber": 388,
-	"startColumn": 31,
-	"endLineNumber": 388,
-	"endColumn": 32,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 389,
-	"startColumn": 1,
-	"endLineNumber": 389,
-	"endColumn": 2,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 391,
-	"startColumn": 28,
-	"endLineNumber": 391,
-	"endColumn": 29,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 393,
-	"startColumn": 25,
-	"endLineNumber": 393,
-	"endColumn": 26,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 394,
-	"startColumn": 23,
-	"endLineNumber": 394,
-	"endColumn": 24,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 396,
-	"startColumn": 16,
-	"endLineNumber": 396,
-	"endColumn": 17,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 397,
-	"startColumn": 15,
-	"endLineNumber": 397,
-	"endColumn": 16,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 399,
-	"startColumn": 17,
-	"endLineNumber": 399,
-	"endColumn": 18,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 401,
-	"startColumn": 26,
-	"endLineNumber": 401,
-	"endColumn": 27,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 403,
-	"startColumn": 17,
-	"endLineNumber": 403,
-	"endColumn": 18,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 405,
-	"startColumn": 17,
-	"endLineNumber": 405,
-	"endColumn": 18,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 406,
-	"startColumn": 15,
-	"endLineNumber": 406,
-	"endColumn": 16,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 408,
-	"startColumn": 8,
-	"endLineNumber": 408,
-	"endColumn": 9,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 410,
-	"startColumn": 10,
-	"endLineNumber": 410,
-	"endColumn": 11,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 412,
-	"startColumn": 17,
-	"endLineNumber": 412,
-	"endColumn": 18,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 413,
-	"startColumn": 7,
-	"endLineNumber": 413,
-	"endColumn": 8,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-colonexpected",
-	"severity": 8,
-	"message": "dois-pontos esperados",
-	"source": "css",
-	"startLineNumber": 414,
-	"startColumn": 25,
-	"endLineNumber": 414,
-	"endColumn": 26,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 416,
-	"startColumn": 5,
-	"endLineNumber": 416,
-	"endColumn": 6,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 416,
-	"startColumn": 15,
-	"endLineNumber": 416,
-	"endColumn": 16,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 418,
-	"startColumn": 10,
-	"endLineNumber": 418,
-	"endColumn": 11,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 420,
-	"startColumn": 17,
-	"endLineNumber": 420,
-	"endColumn": 18,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 421,
-	"startColumn": 7,
-	"endLineNumber": 421,
-	"endColumn": 8,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-colonexpected",
-	"severity": 8,
-	"message": "dois-pontos esperados",
-	"source": "css",
-	"startLineNumber": 422,
-	"startColumn": 15,
-	"endLineNumber": 422,
-	"endColumn": 18,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-semicolonexpected",
-	"severity": 8,
-	"message": "ponto e vírgula esperado",
-	"source": "css",
-	"startLineNumber": 422,
-	"startColumn": 42,
-	"endLineNumber": 422,
-	"endColumn": 47,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 423,
-	"startColumn": 12,
-	"endLineNumber": 423,
-	"endColumn": 13,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 425,
-	"startColumn": 9,
-	"endLineNumber": 425,
-	"endColumn": 10,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 426,
-	"startColumn": 43,
-	"endLineNumber": 426,
-	"endColumn": 44,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 427,
-	"startColumn": 7,
-	"endLineNumber": 427,
-	"endColumn": 8,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 431,
-	"startColumn": 6,
-	"endLineNumber": 431,
-	"endColumn": 7,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 433,
-	"startColumn": 25,
-	"endLineNumber": 433,
-	"endColumn": 26,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 434,
-	"startColumn": 11,
-	"endLineNumber": 434,
-	"endColumn": 12,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 435,
-	"startColumn": 3,
-	"endLineNumber": 435,
-	"endColumn": 4,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 437,
-	"startColumn": 25,
-	"endLineNumber": 437,
-	"endColumn": 26,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 438,
-	"startColumn": 23,
-	"endLineNumber": 438,
-	"endColumn": 24,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-colonexpected",
-	"severity": 8,
-	"message": "dois-pontos esperados",
-	"source": "css",
-	"startLineNumber": 441,
-	"startColumn": 11,
-	"endLineNumber": 441,
-	"endColumn": 19,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-semicolonexpected",
-	"severity": 8,
-	"message": "ponto e vírgula esperado",
-	"source": "css",
-	"startLineNumber": 442,
-	"startColumn": 15,
-	"endLineNumber": 442,
-	"endColumn": 20,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 443,
-	"startColumn": 54,
-	"endLineNumber": 443,
-	"endColumn": 55,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 444,
-	"startColumn": 11,
-	"endLineNumber": 444,
-	"endColumn": 12,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 451,
-	"startColumn": 7,
-	"endLineNumber": 451,
-	"endColumn": 8,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 454,
-	"startColumn": 8,
-	"endLineNumber": 454,
-	"endColumn": 9,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 456,
-	"startColumn": 27,
-	"endLineNumber": 456,
-	"endColumn": 28,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 457,
-	"startColumn": 13,
-	"endLineNumber": 457,
-	"endColumn": 14,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 458,
-	"startColumn": 5,
-	"endLineNumber": 458,
-	"endColumn": 6,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 460,
-	"startColumn": 23,
-	"endLineNumber": 460,
-	"endColumn": 24,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 461,
-	"startColumn": 18,
-	"endLineNumber": 461,
-	"endColumn": 19,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 463,
-	"startColumn": 27,
-	"endLineNumber": 463,
-	"endColumn": 28,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 464,
-	"startColumn": 25,
-	"endLineNumber": 464,
-	"endColumn": 26,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 466,
-	"startColumn": 15,
-	"endLineNumber": 466,
-	"endColumn": 16,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 468,
-	"startColumn": 29,
-	"endLineNumber": 468,
-	"endColumn": 30,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 469,
-	"startColumn": 5,
-	"endLineNumber": 469,
-	"endColumn": 6,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 471,
-	"startColumn": 3,
-	"endLineNumber": 471,
-	"endColumn": 4,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 471,
-	"startColumn": 11,
-	"endLineNumber": 471,
-	"endColumn": 12,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 473,
-	"startColumn": 25,
-	"endLineNumber": 473,
-	"endColumn": 26,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 474,
-	"startColumn": 3,
-	"endLineNumber": 474,
-	"endColumn": 4,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 478,
-	"startColumn": 26,
-	"endLineNumber": 478,
-	"endColumn": 27,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 481,
-	"startColumn": 26,
-	"endLineNumber": 481,
-	"endColumn": 27,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 483,
-	"startColumn": 3,
-	"endLineNumber": 483,
-	"endColumn": 4,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 485,
-	"startColumn": 26,
-	"endLineNumber": 485,
-	"endColumn": 27,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 487,
-	"startColumn": 28,
-	"endLineNumber": 487,
-	"endColumn": 29,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 488,
-	"startColumn": 28,
-	"endLineNumber": 488,
-	"endColumn": 29,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 489,
-	"startColumn": 3,
-	"endLineNumber": 489,
-	"endColumn": 4,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 491,
-	"startColumn": 26,
-	"endLineNumber": 491,
-	"endColumn": 27,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 493,
-	"startColumn": 3,
-	"endLineNumber": 493,
-	"endColumn": 4,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-lcurlyexpected",
-	"severity": 8,
-	"message": "{ esperada",
-	"source": "css",
-	"startLineNumber": 495,
-	"startColumn": 26,
-	"endLineNumber": 495,
-	"endColumn": 27,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "css-ruleorselectorexpected",
-	"severity": 8,
-	"message": "regra 'at' ou seletor esperado",
-	"source": "css",
-	"startLineNumber": 496,
-	"startColumn": 1,
-	"endLineNumber": 496,
-	"endColumn": 2,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "unknownProperties",
-	"severity": 4,
-	"message": "Propriedade desconhecida: 'texto'",
-	"source": "css",
-	"startLineNumber": 89,
-	"startColumn": 12,
-	"endLineNumber": 89,
-	"endColumn": 17,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "unknownProperties",
-	"severity": 4,
-	"message": "Propriedade desconhecida: 'disciplina'",
-	"source": "css",
-	"startLineNumber": 106,
-	"startColumn": 7,
-	"endLineNumber": 106,
-	"endColumn": 17,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "unknownProperties",
-	"severity": 4,
-	"message": "Propriedade desconhecida: 'disciplina'",
-	"source": "css",
-	"startLineNumber": 128,
-	"startColumn": 7,
-	"endLineNumber": 128,
-	"endColumn": 17,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "unknownProperties",
-	"severity": 4,
-	"message": "Propriedade desconhecida: 'valido'",
-	"source": "css",
-	"startLineNumber": 377,
-	"startColumn": 12,
-	"endLineNumber": 377,
-	"endColumn": 18,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-},{
-	"resource": "/Profbt/Boletim-DeepSeek-Teste-8/style.css",
-	"owner": "_generated_diagnostic_collection_name_#1",
-	"code": "unknownProperties",
-	"severity": 4,
-	"message": "Propriedade desconhecida: 'valido'",
-	"source": "css",
-	"startLineNumber": 388,
-	"startColumn": 12,
-	"endLineNumber": 388,
-	"endColumn": 18,
-	"modelVersionId": 5,
-	"origin": "extHost1"
-}]
+/* =========================================================
+   BOLETIM DIGITAL — 8º ANO
+   ========================================================= */
+
+/* -------- CONFIGURAÇÃO FIXA DO ALUNO -------- */
+const CONFIG_ALUNO = {
+  turma: "8A",
+  numeroChamada: 12,
+  apiUrl: "https://boletim-api.profbt.com.br"
+};
+
+/* -------- DADOS BRUTOS LOCAIS --------
+   tri1 = 1º trimestre
+   tri2 = 2º trimestre
+   tri3 = 3º trimestre
+   faltas = [1º tri, 2º tri, 3º tri] */
+const dadosBrutos = [
+  { disciplina: "Língua Portuguesa",           tri1: 78, tri2: 15,  tri3: null, faltas: [5, 7, 0] },
+  { disciplina: "Matemática",                  tri1: 75, tri2: 51,  tri3: null, faltas: [6, 8, 0] },
+  { disciplina: "Ciências",                    tri1: 75, tri2: 25,  tri3: null, faltas: [2, 5, 0] },
+  { disciplina: "História",                    tri1: 75, tri2: 98,  tri3: null, faltas: [9, 1, 0] },
+  { disciplina: "Geografia",                   tri1: 75, tri2: 68,  tri3: null, faltas: [8, 3, 0] },
+  { disciplina: "Língua Inglesa",              tri1: 75, tri2: 75,  tri3: null, faltas: [4, 8, 0] },
+  { disciplina: "Arte",                        tri1: 75, tri2: 84,  tri3: null, faltas: [65, 50, 0] },
+  { disciplina: "Educação Física",             tri1: 75, tri2: 98,  tri3: null, faltas: [8, 65, 0] },
+  { disciplina: "Educação Digital",            tri1: 75, tri2: 100, tri3: null, faltas: [45, 8, 0] },
+  { disciplina: "Educação Financeira",         tri1: 75, tri2: 59,  tri3: null, faltas: [5, 5, 0] },
+  { disciplina: "Estudo Orientado",            tri1: 75, tri2: 65,  tri3: null, faltas: [2, 6, 0] },
+  { disciplina: "Redação e Leitura",           tri1: 75, tri2: 77,  tri3: null, faltas: [3, 2, 0] },
+  { disciplina: "Pensamento Lógico",           tri1: 75, tri2: 72,  tri3: null, faltas: [0, 3, 0] },
+  { disciplina: "Literatura Arte e Movimento", tri1: 78, tri2: 88,  tri3: null, faltas: [1, 2, 0] },
+  { disciplina: "Práticas Experimentais",       tri1: 55, tri2: 71,  tri3: null, faltas: [4, 1, 0] }
+];
+
+/* Frequência fictícia apenas para demonstração. */
+const FREQUENCIA_DEMONSTRATIVA = 92;
+
+/* Var de sessão em memória para o PIN */
+let pinSessao = "";
+let disciplinasAtuais = [];
+
+/* -------- FUNÇÃO: normalizarNota -------- */
+function normalizarNota(valor) {
+  if (valor === null || valor === undefined || valor === "") {
+    return null;
+  }
+
+  if (typeof valor === "string") {
+    valor = valor.replace(",", ".").trim();
+  }
+
+  const numero = Number(valor);
+
+  if (isNaN(numero)) {
+    return null;
+  }
+
+  if (numero >= 0 && numero <= 10) {
+    return numero;
+  }
+
+  if (numero > 10 && numero <= 100) {
+    return numero / 10;
+  }
+
+  return null;
+}
+
+/* -------- FUNÇÃO: calcularMedia -------- */
+function calcularMedia(notas) {
+  const validas = notas.filter((n) => n !== null);
+
+  if (validas.length === 0) {
+    return null;
+  }
+
+  const soma = validas.reduce((acc, n) => acc + n, 0);
+  return soma / validas.length;
+}
+
+/* -------- FUNÇÃO: definirSituacao -------- */
+function definirSituacao(media) {
+  if (media === null) {
+    return { texto: "Nota ainda não disponível", classe: "situacao-neutra" };
+  }
+  if (media >= 6) {
+    return { texto: "Bom desempenho", classe: "situacao-bom" };
+  }
+  return { texto: "Atenção", classe: "situacao-atencao" };
+}
+
+/* -------- FUNÇÃO: formatarNota -------- */
+function formatarNota(nota) {
+  if (nota === null) return "—";
+  return nota.toFixed(1).replace(".", ",");
+}
+
+/* -------- DADOS INICIAIS NORMALIZADOS -------- */
+function carregarDadosIniciaisLocais() {
+  return dadosBrutos.map((item) => {
+    const tri1 = normalizarNota(item.tri1);
+    const tri2 = normalizarNota(item.tri2);
+    const tri3 = normalizarNota(item.tri3);
+
+    return {
+      disciplina: item.disciplina,
+      tri1,
+      tri2,
+      tri3,
+      faltas: Array.isArray(item.faltas) ? [...item.faltas] : [0, 0, 0]
+    };
+  });
+}
+
+/* -------- PROCESSAR DISCIPLINAS -------- */
+function processarDisciplinas(lista) {
+  return lista.map((item) => {
+    const tri1 = normalizarNota(item.tri1);
+    const tri2 = normalizarNota(item.tri2);
+    const tri3 = normalizarNota(item.tri3);
+
+    const media = calcularMedia([tri1, tri2, tri3]);
+    const faltasValidas = Array.isArray(item.faltas) ? item.faltas : [0, 0, 0];
+    const totalFaltas = faltasValidas.reduce((acc, f) => acc + (Number(f) || 0), 0);
+    const situacao = definirSituacao(media);
+
+    return {
+      disciplina: item.disciplina,
+      tri1,
+      tri2,
+      tri3,
+      faltas: faltasValidas,
+      media,
+      totalFaltas,
+      situacao
+    };
+  });
+}
+
+/* -------- MONTAR A TABELA -------- */
+function montarTabela(disciplinasProc) {
+  const corpo = document.getElementById("corpoTabela");
+  if (!corpo) return;
+  corpo.innerHTML = "";
+
+  disciplinasProc.forEach((d) => {
+    const linha = document.createElement("tr");
+
+    const tdDisc = document.createElement("td");
+    tdDisc.textContent = d.disciplina;
+    linha.appendChild(tdDisc);
+
+    const td1 = document.createElement("td");
+    td1.textContent = formatarNota(d.tri1);
+    linha.appendChild(td1);
+
+    const td2 = document.createElement("td");
+    td2.textContent = formatarNota(d.tri2);
+    linha.appendChild(td2);
+
+    const td3 = document.createElement("td");
+    td3.textContent = formatarNota(d.tri3);
+    linha.appendChild(td3);
+
+    const tdMedia = document.createElement("td");
+    const strMedia = document.createElement("strong");
+    strMedia.textContent = formatarNota(d.media);
+    tdMedia.appendChild(strMedia);
+    linha.appendChild(tdMedia);
+
+    const tdFaltas = document.createElement("td");
+    tdFaltas.textContent = d.totalFaltas;
+    linha.appendChild(tdFaltas);
+
+    const tdSit = document.createElement("td");
+    const spanSit = document.createElement("span");
+    spanSit.className = `situacao ${d.situacao.classe}`;
+    spanSit.textContent = d.situacao.texto;
+    tdSit.appendChild(spanSit);
+    linha.appendChild(tdSit);
+
+    corpo.appendChild(linha);
+  });
+}
+
+/* -------- MONTAR OS CARDS DE RESUMO -------- */
+function montarCards(disciplinasProc) {
+  const container = document.getElementById("cardsResumo");
+  if (!container) return;
+  container.innerHTML = "";
+
+  const mediasValidas = disciplinasProc
+    .map((d) => d.media)
+    .filter((m) => m !== null);
+
+  const mediaGeral =
+    mediasValidas.length > 0
+      ? mediasValidas.reduce((acc, m) => acc + m, 0) / mediasValidas.length
+      : null;
+
+  const totalFaltas = disciplinasProc.reduce(
+    (acc, d) => acc + d.totalFaltas,
+    0
+  );
+
+  const bomDesempenho = disciplinasProc.filter(
+    (d) => d.situacao.texto === "Bom desempenho"
+  ).length;
+
+  const atencao = disciplinasProc.filter(
+    (d) => d.situacao.texto === "Atenção"
+  ).length;
+
+  const cards = [
+    {
+      titulo: "Média geral",
+      valor: mediaGeral !== null ? formatarNota(mediaGeral) : "—",
+      descricao: "Média das disciplinas com nota lançada",
+      verde: true
+    },
+    {
+      titulo: "Total de faltas",
+      valor: totalFaltas,
+      descricao: "Soma das faltas nos três trimestres",
+      verde: false
+    },
+    {
+      titulo: "Bom desempenho",
+      valor: bomDesempenho,
+      descricao: "Disciplinas com média ≥ 6,0",
+      verde: true
+    },
+    {
+      titulo: "Precisam de atenção",
+      valor: atencao,
+      descricao: "Disciplinas com média < 6,0",
+      verde: false
+    },
+    {
+      titulo: "Frequência",
+      valor: FREQUENCIA_DEMONSTRATIVA + "%",
+      descricao: "Frequência adequada (demonstrativa)",
+      verde: true
+    }
+  ];
+
+  cards.forEach((c) => {
+    const div = document.createElement("div");
+    div.className = "card" + (c.verde ? " card-verde" : "");
+
+    const pTitulo = document.createElement("p");
+    pTitulo.className = "card-titulo";
+    pTitulo.textContent = c.titulo;
+
+    const pValor = document.createElement("p");
+    pValor.className = "card-valor";
+    pValor.textContent = c.valor;
+
+    const pDesc = document.createElement("p");
+    pDesc.className = "card-descricao";
+    pDesc.textContent = c.descricao;
+
+    div.appendChild(pTitulo);
+    div.appendChild(pValor);
+    div.appendChild(pDesc);
+
+    container.appendChild(div);
+  });
+}
+
+/* -------- ATUALIZAR TELA -------- */
+function atualizarTela() {
+  const proc = processarDisciplinas(disciplinasAtuais);
+  montarCards(proc);
+  montarTabela(proc);
+}
+
+/* -------- AUTENTICAÇÃO E CONEXÃO -------- */
+async function realizarLogin() {
+  const inputPin = document.getElementById("campoPin");
+  const msgLogin = document.getElementById("msgLogin");
+  
+  if (!inputPin || !msgLogin) return;
+
+  const pinDigitado = inputPin.value.trim();
+
+  if (!pinDigitado) {
+    msgLogin.textContent = "Por favor, digite o PIN.";
+    msgLogin.className = "msg-status erro";
+    return;
+  }
+
+  msgLogin.textContent = "Conectando...";
+  msgLogin.className = "msg-status info";
+
+  try {
+    const resposta = await fetch(`${CONFIG_ALUNO.apiUrl}/api/v1/boletins/abrir`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        turma: CONFIG_ALUNO.turma,
+        numero_chamada: CONFIG_ALUNO.numeroChamada,
+        pin: pinDigitado
+      })
+    });
+
+    if (resposta.status === 401) {
+      msgLogin.textContent = "Turma, chamada ou PIN inválidos.";
+      msgLogin.className = "msg-status erro";
+      return;
+    }
+
+    if (resposta.status === 429) {
+      msgLogin.textContent = "Muitas tentativas. Aguarde um minuto e tente novamente.";
+      msgLogin.className = "msg-status erro";
+      return;
+    }
+
+    if (!resposta.ok) {
+      msgLogin.textContent = "Não foi possível conectar ao servidor. Tente novamente.";
+      msgLogin.className = "msg-status erro";
+      return;
+    }
+
+    const resultado = await resposta.json();
+
+    pinSessao = pinDigitado;
+    inputPin.value = "";
+
+    if (resultado && resultado.dados && Array.isArray(resultado.dados.disciplinas) && resultado.dados.disciplinas.length > 0) {
+      disciplinasAtuais = resultado.dados.disciplinas;
+    } else {
+      disciplinasAtuais = carregarDadosIniciaisLocais();
+    }
+
+    const areaLogin = document.getElementById("areaLogin");
+    const areaBoletim = document.getElementById("areaBoletim");
+
+    if (areaLogin) areaLogin.style.display = "none";
+    if (areaBoletim) areaBoletim.style.display = "block";
+
+    atualizarTela();
+
+  } catch (erro) {
+    msgLogin.textContent = "Não foi possível conectar ao servidor. Tente novamente.";
+    msgLogin.className = "msg-status erro";
+  }
+}
+
+/* -------- TABELA DE EDIÇÃO -------- */
+function montarTabelaEdicao() {
+  const corpoEdicao = document.getElementById("corpoEdicao");
+  if (!corpoEdicao) return;
+  corpoEdicao.innerHTML = "";
+
+  disciplinasAtuais.forEach((d, idx) => {
+    const linha = document.createElement("tr");
+
+    const tdNome = document.createElement("td");
+    tdNome.textContent = d.disciplina;
+    linha.appendChild(tdNome);
+
+    const f1 = Array.isArray(d.faltas) ? d.faltas[0] : 0;
+    const f2 = Array.isArray(d.faltas) ? d.faltas[1] : 0;
+    const f3 = Array.isArray(d.faltas) ? d.faltas[2] : 0;
+
+    linha.innerHTML += `
+      <td><input type="text" class="campo-edicao campo-nota" data-idx="${idx}" data-field="tri1" value="${d.tri1 !== null && d.tri1 !== undefined ? String(d.tri1).replace('.', ',') : ''}" /></td>
+      <td><input type="text" class="campo-edicao campo-nota" data-idx="${idx}" data-field="tri2" value="${d.tri2 !== null && d.tri2 !== undefined ? String(d.tri2).replace('.', ',') : ''}" /></td>
+      <td><input type="text" class="campo-edicao campo-nota" data-idx="${idx}" data-field="tri3" value="${d.tri3 !== null && d.tri3 !== undefined ? String(d.tri3).replace('.', ',') : ''}" /></td>
+      <td><input type="text" class="campo-edicao campo-falta" data-idx="${idx}" data-field="f1" value="${f1 !== null && f1 !== undefined ? f1 : 0}" /></td>
+      <td><input type="text" class="campo-edicao campo-falta" data-idx="${idx}" data-field="f2" value="${f2 !== null && f2 !== undefined ? f2 : 0}" /></td>
+      <td><input type="text" class="campo-edicao campo-falta" data-idx="${idx}" data-field="f3" value="${f3 !== null && f3 !== undefined ? f3 : 0}" /></td>
+    `;
+
+    corpoEdicao.appendChild(linha);
+  });
+}
+
+function validarNotaInput(valStr) {
+  if (valStr.trim() === "") return { valido: true, valor: null };
+  const strLimpa = valStr.trim().replace(",", ".");
+  const num = Number(strLimpa);
+  if (isNaN(num) || num < 0 || num > 10) {
+    return { valido: false };
+  }
+  return { valido: true, valor: num };
+}
+
+function validarFaltaInput(valStr) {
+  if (valStr.trim() === "") return { valido: false };
+  const strLimpa = valStr.trim();
+  if (!/^\d+$/.test(strLimpa)) {
+    return { valido: false };
+  }
+  const num = Number(strLimpa);
+  if (num < 0) return { valido: false };
+  return { valido: true, valor: num };
+}
+
+async function salvarEdicao() {
+  const msgEdicao = document.getElementById("msgEdicao");
+  if (!msgEdicao) return;
+  msgEdicao.textContent = "";
+  msgEdicao.className = "msg-status";
+
+  const inputs = document.querySelectorAll(".campo-edicao");
+  let temErro = false;
+
+  inputs.forEach((input) => input.classList.remove("campo-invalido"));
+
+  const novasDisciplinas = JSON.parse(JSON.stringify(disciplinasAtuais));
+
+  inputs.forEach((input) => {
+    const idx = Number(input.getAttribute("data-idx"));
+    const field = input.getAttribute("data-field");
+    const val = input.value;
+
+    if (field.startsWith("tri")) {
+      const res = validarNotaInput(val);
+      if (!res.valido) {
+        input.classList.add("campo-invalido");
+        temErro = true;
+      } else {
+        novasDisciplinas[idx][field] = res.valor;
+      }
+    } else if (field.startsWith("f")) {
+      const res = validarFaltaInput(val);
+      if (!res.valido) {
+        input.classList.add("campo-invalido");
+        temErro = true;
+      } else {
+        const pos = field === "f1" ? 0 : field === "f2" ? 1 : 2;
+        if (!Array.isArray(novasDisciplinas[idx].faltas)) {
+          novasDisciplinas[idx].faltas = [0, 0, 0];
+        }
+        novasDisciplinas[idx].faltas[pos] = res.valor;
+      }
+    }
+  });
+
+  if (temErro) {
+    msgEdicao.textContent = "Existem campos com valores inválidos. Notas devem ser de 0 a 10 e faltas números inteiros ≥ 0.";
+    msgEdicao.className = "msg-status erro";
+    return;
+  }
+
+  msgEdicao.textContent = "Salvando...";
+  msgEdicao.className = "msg-status info";
+
+  try {
+    const resposta = await fetch(`${CONFIG_ALUNO.apiUrl}/api/v1/boletins/salvar`, {
+      method: "PUT",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        turma: CONFIG_ALUNO.turma,
+        numero_chamada: CONFIG_ALUNO.numeroChamada,
+        pin: pinSessao,
+        dados: {
+          disciplinas: novasDisciplinas
+        }
+      })
+    });
+
+    if (!resposta.ok) {
+      msgEdicao.textContent = "Erro ao salvar alterações no servidor. Tente novamente.";
+      msgEdicao.className = "msg-status erro";
+      return;
+    }
+
+    disciplinasAtuais = novasDisciplinas;
+    atualizarTela();
+
+    msgEdicao.textContent = "Dados salvos com sucesso.";
+    msgEdicao.className = "msg-status sucesso";
+
+    setTimeout(() => {
+      const areaEdicao = document.getElementById("areaEdicao");
+      if (areaEdicao) areaEdicao.style.display = "none";
+      msgEdicao.textContent = "";
+    }, 1200);
+
+  } catch (e) {
+    msgEdicao.textContent = "Não foi possível conectar ao servidor para salvar.";
+    msgEdicao.className = "msg-status erro";
+  }
+}
+
+/* -------- INICIALIZAÇÃO DE EVENTOS -------- */
+function inicializarEventos() {
+  const btnEntrar = document.getElementById("btnEntrar");
+  const campoPin = document.getElementById("campoPin");
+  const btnEditar = document.getElementById("btnEditar");
+  const btnCancelar = document.getElementById("btnCancelar");
+  const btnSalvar = document.getElementById("btnSalvar");
+
+  if (btnEntrar) {
+    btnEntrar.addEventListener("click", realizarLogin);
+  }
+
+  if (campoPin) {
+    campoPin.addEventListener("keypress", (e) => {
+      if (e.key === "Enter") realizarLogin();
+    });
+  }
+
+  if (btnEditar) {
+    btnEditar.addEventListener("click", () => {
+      montarTabelaEdicao();
+      const areaEdicao = document.getElementById("areaEdicao");
+      const msgEdicao = document.getElementById("msgEdicao");
+      if (areaEdicao) areaEdicao.style.display = "block";
+      if (msgEdicao) msgEdicao.textContent = "";
+    });
+  }
+
+  if (btnCancelar) {
+    btnCancelar.addEventListener("click", () => {
+      const areaEdicao = document.getElementById("areaEdicao");
+      if (areaEdicao) areaEdicao.style.display = "none";
+    });
+  }
+
+  if (btnSalvar) {
+    btnSalvar.addEventListener("click", salvarEdicao);
+  }
+}
+
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", inicializarEventos);
+} else {
+  inicializarEventos();
+}
