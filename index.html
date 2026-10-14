@@ -8,41 +8,77 @@
 </head>
 <body>
 
-  <header class="cabecalho">
-    <h1>Boletim Digital</h1>
-    <p class="subtitulo">8º Ano — Estudante Exemplo</p>
-  </header>
+  <!-- ===== TELA DE ACESSO (PIN) ===== -->
+  <section class="tela-acesso" id="telaAcesso">
+    <div class="cartao-acesso">
+      <h1>Boletim Digital</h1>
+      <p class="acesso-serie">8º Ano — Turma 8A</p>
+      <p class="acesso-chamada">Número de chamada: 12</p>
 
-  <main class="conteudo">
+      <label class="acesso-rotulo" for="campoPin">Digite seu PIN</label>
+      <input
+        type="password"
+        id="campoPin"
+        class="acesso-campo"
+        inputmode="numeric"
+        autocomplete="off"
+        maxlength="12"
+        placeholder="••••"
+      />
 
-    <section class="cards-resumo" id="cardsResumo"></section>
+      <button type="button" id="botaoEntrar" class="acesso-botao">Entrar</button>
 
-    <section class="area-tabela">
-      <h2>Notas por disciplina</h2>
+      <p class="acesso-mensagem" id="mensagemAcesso"></p>
+    </div>
+  </section>
 
-      <div class="tabela-responsiva">
-        <table class="tabela-boletim">
-          <thead>
-            <tr>
-              <th>Disciplina</th>
-              <th>1º Tri</th>
-              <th>2º Tri</th>
-              <th>3º Tri</th>
-              <th>Média</th>
-              <th>Faltas</th>
-              <th>Situação</th>
-            </tr>
-          </thead>
-          <tbody id="corpoTabela"></tbody>
-        </table>
+  <!-- ===== CONTEÚDO DO BOLETIM ===== -->
+  <div id="appBoletim" class="app-boletim oculto">
+
+    <header class="cabecalho">
+      <h1>Boletim Digital</h1>
+      <p class="subtitulo">8º Ano — Turma 8A — Chamada 12</p>
+    </header>
+
+    <main class="conteudo">
+
+      <div class="barra-acoes">
+        <button type="button" id="botaoAlterar" class="botao-acao">Alterar dados</button>
+        <button type="button" id="botaoSalvar" class="botao-acao botao-salvar oculto">Salvar</button>
+        <button type="button" id="botaoCancelar" class="botao-acao botao-cancelar oculto">Cancelar</button>
+        <span class="status-salvar" id="statusSalvar"></span>
       </div>
-    </section>
 
-  </main>
+      <section class="cards-resumo" id="cardsResumo"></section>
 
-  <footer class="rodape">
-    <p>Projeto escolar — dados fictícios para demonstração.</p>
-  </footer>
+      <section class="area-tabela">
+        <h2>Notas por disciplina</h2>
+
+        <div class="tabela-responsiva">
+          <table class="tabela-boletim">
+            <thead>
+              <tr>
+                <th>Disciplina</th>
+                <th>1º Tri</th>
+                <th>2º Tri</th>
+                <th>3º Tri</th>
+                <th>Média</th>
+                <th>Faltas</th>
+                <th>Situação</th>
+              </tr>
+            </thead>
+            <tbody id="corpoTabela"></tbody>
+          </table>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="rodape">
+      <p>Projeto escolar — dados fictícios para demonstração.</p>
+    </footer>
+
+  </div>
 
   <script src="script.js"></script>
 </body>

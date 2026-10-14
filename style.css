@@ -189,3 +189,170 @@ body {
     font-size: 0.85rem;
   }
 }
+
+/* ===== NOVOS ESTILOS — ACESSO, AÇÕES E EDIÇÃO ===== */
+
+.oculto {
+  display: none !important;
+}
+
+/* ----- Tela de acesso (PIN) ----- */
+.tela-acesso {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 16px;
+  background: linear-gradient(135deg, var(--laranja), var(--laranja-escuro));
+}
+
+.cartao-acesso {
+  background: #fff;
+  border-radius: 18px;
+  padding: 32px 26px;
+  width: 100%;
+  max-width: 380px;
+  text-align: center;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.2);
+}
+
+.cartao-acesso h1 {
+  color: var(--laranja-escuro);
+  font-size: 1.7rem;
+  margin-bottom: 6px;
+}
+
+.acesso-serie {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.acesso-chamada {
+  font-size: 0.9rem;
+  color: #777;
+  margin-bottom: 22px;
+}
+
+.acesso-rotulo {
+  display: block;
+  text-align: left;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #555;
+  margin-bottom: 6px;
+}
+
+.acesso-campo {
+  width: 100%;
+  padding: 12px 14px;
+  font-size: 1rem;
+  border: 2px solid var(--cinza-borda);
+  border-radius: 10px;
+  outline: none;
+  transition: border-color 0.2s ease;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+.acesso-campo:focus {
+  border-color: var(--laranja);
+}
+
+.acesso-botao {
+  width: 100%;
+  margin-top: 18px;
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #fff;
+  background: linear-gradient(135deg, var(--laranja), var(--laranja-escuro));
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: filter 0.2s ease, transform 0.1s ease;
+}
+
+.acesso-botao:hover {
+  filter: brightness(1.08);
+}
+
+.acesso-botao:active {
+  transform: scale(0.98);
+}
+
+.acesso-botao:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.acesso-mensagem {
+  margin-top: 14px;
+  font-size: 0.88rem;
+  color: #c0392b;
+  min-height: 20px;
+}
+
+/* ----- Barra de ações (Alterar / Salvar / Cancelar) ----- */
+.barra-acoes {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 22px;
+}
+
+.botao-acao {
+  padding: 10px 18px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: var(--laranja);
+  color: #fff;
+  transition: filter 0.2s ease, transform 0.1s ease;
+}
+
+.botao-acao:hover {
+  filter: brightness(1.08);
+}
+
+.botao-acao:active {
+  transform: scale(0.98);
+}
+
+.botao-salvar {
+  background-color: var(--verde);
+}
+
+.botao-cancelar {
+  background-color: #888;
+}
+
+.status-salvar {
+  font-size: 0.9rem;
+  color: var(--verde);
+  font-weight: 600;
+}
+
+/* ----- Campos de edição dentro da tabela ----- */
+.campo-edicao {
+  width: 72px;
+  padding: 6px 8px;
+  font-size: 0.9rem;
+  border: 2px solid var(--cinza-borda);
+  border-radius: 8px;
+  outline: none;
+  text-align: center;
+}
+
+.campo-edicao:focus {
+  border-color: var(--laranja);
+}
+
+@media (max-width: 600px) {
+  .barra-acoes {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
