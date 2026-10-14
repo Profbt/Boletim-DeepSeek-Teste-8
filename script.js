@@ -1,5 +1,5 @@
 /* =========================================================
-   BOLETIM DIGITAL — 8º ANO
+   BOLETIM DIGITAL — 8º ANO — TURMA 8A — CHAMADA 12
    ========================================================= */
 
 /* -------- CONFIGURAÇÃO FIXA DO ALUNO -------- */
@@ -9,10 +9,17 @@ const CONFIG_ALUNO = {
   apiUrl: "https://boletim-api.profbt.com.br"
 };
 
-/* -------- DADOS BRUTOS LOCAIS --------
+/* -------- PIN EM MEMÓRIA (nunca persistido) -------- */
+let pinSessao = null;
+
+/* -------- ESTADO ATUAL -------- */
+let disciplinasProcessadas = [];
+let modoEdicao = false;
+
+/* -------- DADOS BRUTOS LOCAIS (fallback) --------
    tri1 = 1º trimestre
    tri2 = 2º trimestre
-   tri3 = 3º trimestre
+   tri3 = 3º trimestre (ainda não lançado => null)
    faltas = [1º tri, 2º tri, 3º tri] */
 const dadosBrutos = [
   { disciplina: "Língua Portuguesa",           tri1: 78, tri2: 15,  tri3: null, faltas: [5, 7, 0] },
@@ -29,15 +36,11 @@ const dadosBrutos = [
   { disciplina: "Redação e Leitura",           tri1: 75, tri2: 77,  tri3: null, faltas: [3, 2, 0] },
   { disciplina: "Pensamento Lógico",           tri1: 75, tri2: 72,  tri3: null, faltas: [0, 3, 0] },
   { disciplina: "Literatura Arte e Movimento", tri1: 78, tri2: 88,  tri3: null, faltas: [1, 2, 0] },
-  { disciplina: "Práticas Experimentais",       tri1: 55, tri2: 71,  tri3: null, faltas: [4, 1, 0] }
+  { disciplina: "Práticas Experimentais",      tri1: 55, tri2: 71,  tri3: null, faltas: [4, 1, 0] }
 ];
 
 /* Frequência fictícia apenas para demonstração. */
 const FREQUENCIA_DEMONSTRATIVA = 92;
-
-/* Var de sessão em memória para o PIN */
-let pinSessao = "";
-let disciplinasAtuais = [];
 
 /* -------- FUNÇÃO: normalizarNota -------- */
 function normalizarNota(valor) {
@@ -47,6 +50,7 @@ function normalizarNota(valor) {
 
   if (typeof valor === "string") {
     valor = valor.replace(",", ".").trim();
+    if (valor === "") return null;
   }
 
   const numero = Number(valor);
@@ -64,6 +68,18 @@ function normalizarNota(valor) {
   }
 
   return null;
+}
+
+/* -------- FUNÇÃO: normalizarFaltas -------- */
+function normalizarFaltas(valor) {
+  if (valor === null || valor === undefined || valor === "") {
+    return 0;
+  }
+  const numero = parseInt(valor, 10);
+  if (isNaN(numero) || numero < 0) {
+    return 0;
+  }
+  return numero;
 }
 
 /* -------- FUNÇÃO: calcularMedia -------- */
@@ -95,23 +111,6 @@ function formatarNota(nota) {
   return nota.toFixed(1).replace(".", ",");
 }
 
-/* -------- DADOS INICIAIS NORMALIZADOS -------- */
-function carregarDadosIniciaisLocais() {
-  return dadosBrutos.map((item) => {
-    const tri1 = normalizarNota(item.tri1);
-    const tri2 = normalizarNota(item.tri2);
-    const tri3 = normalizarNota(item.tri3);
-
-    return {
-      disciplina: item.disciplina,
-      tri1,
-      tri2,
-      tri3,
-      faltas: Array.isArray(item.faltas) ? [...item.faltas] : [0, 0, 0]
-    };
-  });
-}
-
 /* -------- PROCESSAR DISCIPLINAS -------- */
 function processarDisciplinas(lista) {
   return lista.map((item) => {
@@ -119,9 +118,13 @@ function processarDisciplinas(lista) {
     const tri2 = normalizarNota(item.tri2);
     const tri3 = normalizarNota(item.tri3);
 
+    const faltas = Array.isArray(item.faltas) ? item.faltas : [0, 0, 0];
+    const f1 = normalizarFaltas(faltas[0]);
+    const f2 = normalizarFaltas(faltas[1]);
+    const f3 = normalizarFaltas(faltas[2]);
+
     const media = calcularMedia([tri1, tri2, tri3]);
-    const faltasValidas = Array.isArray(item.faltas) ? item.faltas : [0, 0, 0];
-    const totalFaltas = faltasValidas.reduce((acc, f) => acc + (Number(f) || 0), 0);
+    const totalFaltas = f1 + f2 + f3;
     const situacao = definirSituacao(media);
 
     return {
@@ -129,7 +132,7 @@ function processarDisciplinas(lista) {
       tri1,
       tri2,
       tri3,
-      faltas: faltasValidas,
+      faltas: [f1, f2, f3],
       media,
       totalFaltas,
       situacao
@@ -137,46 +140,76 @@ function processarDisciplinas(lista) {
   });
 }
 
+/* -------- LIMPAR TELA -------- */
+function limparTela() {
+  const corpo = document.getElementById("corpoTabela");
+  const cards = document.getElementById("cardsResumo");
+  if (corpo) corpo.innerHTML = "";
+  if (cards) cards.innerHTML = "";
+}
+
 /* -------- MONTAR A TABELA -------- */
-function montarTabela(disciplinasProc) {
+function montarTabela() {
   const corpo = document.getElementById("corpoTabela");
   if (!corpo) return;
   corpo.innerHTML = "";
 
-  disciplinasProc.forEach((d) => {
+  disciplinasProcessadas.forEach((d, index) => {
     const linha = document.createElement("tr");
 
     const tdDisc = document.createElement("td");
     tdDisc.textContent = d.disciplina;
     linha.appendChild(tdDisc);
 
-    const td1 = document.createElement("td");
-    td1.textContent = formatarNota(d.tri1);
-    linha.appendChild(td1);
-
-    const td2 = document.createElement("td");
-    td2.textContent = formatarNota(d.tri2);
-    linha.appendChild(td2);
-
-    const td3 = document.createElement("td");
-    td3.textContent = formatarNota(d.tri3);
-    linha.appendChild(td3);
+    const colunas = ["tri1", "tri2", "tri3"];
+    colunas.forEach((chave) => {
+      const td = document.createElement("td");
+      if (modoEdicao) {
+        const input = document.createElement("input");
+        input.type = "text";
+        input.className = "campo-edicao";
+        input.dataset.index = index;
+        input.dataset.campo = chave;
+        input.value = d[chave] === null ? "" : formatarNota(d[chave]);
+        input.inputMode = "decimal";
+        td.appendChild(input);
+      } else {
+        td.textContent = formatarNota(d[chave]);
+      }
+      linha.appendChild(td);
+    });
 
     const tdMedia = document.createElement("td");
-    const strMedia = document.createElement("strong");
-    strMedia.textContent = formatarNota(d.media);
-    tdMedia.appendChild(strMedia);
+    const strong = document.createElement("strong");
+    strong.textContent = formatarNota(d.media);
+    tdMedia.appendChild(strong);
     linha.appendChild(tdMedia);
 
     const tdFaltas = document.createElement("td");
-    tdFaltas.textContent = d.totalFaltas;
+    if (modoEdicao) {
+      const wrap = document.createElement("span");
+      ["f0", "f1", "f2"].forEach((chave, i) => {
+        const input = document.createElement("input");
+        input.type = "text";
+        input.className = "campo-edicao campo-falta";
+        input.dataset.index = index;
+        input.dataset.campo = chave;
+        input.value = d.faltas[i];
+        input.inputMode = "numeric";
+        wrap.appendChild(input);
+        if (i < 2) wrap.appendChild(document.createTextNode(" / "));
+      });
+      tdFaltas.appendChild(wrap);
+    } else {
+      tdFaltas.textContent = d.totalFaltas;
+    }
     linha.appendChild(tdFaltas);
 
     const tdSit = document.createElement("td");
-    const spanSit = document.createElement("span");
-    spanSit.className = `situacao ${d.situacao.classe}`;
-    spanSit.textContent = d.situacao.texto;
-    tdSit.appendChild(spanSit);
+    const span = document.createElement("span");
+    span.className = "situacao " + d.situacao.classe;
+    span.textContent = d.situacao.texto;
+    tdSit.appendChild(span);
     linha.appendChild(tdSit);
 
     corpo.appendChild(linha);
@@ -184,12 +217,12 @@ function montarTabela(disciplinasProc) {
 }
 
 /* -------- MONTAR OS CARDS DE RESUMO -------- */
-function montarCards(disciplinasProc) {
+function montarCards() {
   const container = document.getElementById("cardsResumo");
   if (!container) return;
   container.innerHTML = "";
 
-  const mediasValidas = disciplinasProc
+  const mediasValidas = disciplinasProcessadas
     .map((d) => d.media)
     .filter((m) => m !== null);
 
@@ -198,16 +231,16 @@ function montarCards(disciplinasProc) {
       ? mediasValidas.reduce((acc, m) => acc + m, 0) / mediasValidas.length
       : null;
 
-  const totalFaltas = disciplinasProc.reduce(
+  const totalFaltas = disciplinasProcessadas.reduce(
     (acc, d) => acc + d.totalFaltas,
     0
   );
 
-  const bomDesempenho = disciplinasProc.filter(
+  const bomDesempenho = disciplinasProcessadas.filter(
     (d) => d.situacao.texto === "Bom desempenho"
   ).length;
 
-  const atencao = disciplinasProc.filter(
+  const atencao = disciplinasProcessadas.filter(
     (d) => d.situacao.texto === "Atenção"
   ).length;
 
@@ -263,271 +296,211 @@ function montarCards(disciplinasProc) {
     div.appendChild(pTitulo);
     div.appendChild(pValor);
     div.appendChild(pDesc);
-
     container.appendChild(div);
   });
 }
 
-/* -------- ATUALIZAR TELA -------- */
-function atualizarTela() {
-  const proc = processarDisciplinas(disciplinasAtuais);
-  montarCards(proc);
-  montarTabela(proc);
+/* -------- RECONSTRUIR TELA -------- */
+function reconstruirTela() {
+  limparTela();
+  montarCards();
+  montarTabela();
 }
 
-/* -------- AUTENTICAÇÃO E CONEXÃO -------- */
-async function realizarLogin() {
-  const inputPin = document.getElementById("campoPin");
-  const msgLogin = document.getElementById("msgLogin");
-  
-  if (!inputPin || !msgLogin) return;
+/* -------- COLETA DE DADOS DA TELA (edição) -------- */
+function coletarDadosEditados() {
+  const inputs = document.querySelectorAll(".campo-edicao");
+  const copia = disciplinasProcessadas.map((d) => ({
+    disciplina: d.disciplina,
+    tri1: d.tri1,
+    tri2: d.tri2,
+    tri3: d.tri3,
+    faltas: [d.faltas[0], d.faltas[1], d.faltas[2]]
+  }));
 
-  const pinDigitado = inputPin.value.trim();
+  inputs.forEach((input) => {
+    const index = parseInt(input.dataset.index, 10);
+    const campo = input.dataset.campo;
+    if (isNaN(index) || !copia[index]) return;
 
-  if (!pinDigitado) {
-    msgLogin.textContent = "Por favor, digite o PIN.";
-    msgLogin.className = "msg-status erro";
-    return;
-  }
+    if (campo === "tri1" || campo === "tri2" || campo === "tri3") {
+      copia[index][campo] = normalizarNota(input.value);
+    } else if (campo === "f0") {
+      copia[index].faltas[0] = normalizarFaltas(input.value);
+    } else if (campo === "f1") {
+      copia[index].faltas[1] = normalizarFaltas(input.value);
+    } else if (campo === "f2") {
+      copia[index].faltas[2] = normalizarFaltas(input.value);
+    }
+  });
 
-  msgLogin.textContent = "Conectando...";
-  msgLogin.className = "msg-status info";
+  return copia;
+}
 
+/* -------- MENSAGENS DE ERRO -------- */
+function mensagemPorStatus(status) {
+  if (status === 401) return "Turma, chamada ou PIN inválidos.";
+  if (status === 429) return "Muitas tentativas. Aguarde um minuto e tente novamente.";
+  return "Não foi possível conectar ao servidor. Tente novamente.";
+}
+
+/* -------- ABRIR BOLETIM (POST) -------- */
+async function abrirBoletim(pin) {
+  const url = CONFIG_ALUNO.apiUrl + "/api/v1/boletins/abrir";
+
+  let resposta;
   try {
-    const resposta = await fetch(`${CONFIG_ALUNO.apiUrl}/api/v1/boletins/abrir`, {
+    resposta = await fetch(url, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
         turma: CONFIG_ALUNO.turma,
         numero_chamada: CONFIG_ALUNO.numeroChamada,
-        pin: pinDigitado
+        pin: pin
       })
     });
-
-    if (resposta.status === 401) {
-      msgLogin.textContent = "Turma, chamada ou PIN inválidos.";
-      msgLogin.className = "msg-status erro";
-      return;
-    }
-
-    if (resposta.status === 429) {
-      msgLogin.textContent = "Muitas tentativas. Aguarde um minuto e tente novamente.";
-      msgLogin.className = "msg-status erro";
-      return;
-    }
-
-    if (!resposta.ok) {
-      msgLogin.textContent = "Não foi possível conectar ao servidor. Tente novamente.";
-      msgLogin.className = "msg-status erro";
-      return;
-    }
-
-    const resultado = await resposta.json();
-
-    pinSessao = pinDigitado;
-    inputPin.value = "";
-
-    if (resultado && resultado.dados && Array.isArray(resultado.dados.disciplinas) && resultado.dados.disciplinas.length > 0) {
-      disciplinasAtuais = resultado.dados.disciplinas;
-    } else {
-      disciplinasAtuais = carregarDadosIniciaisLocais();
-    }
-
-    const areaLogin = document.getElementById("areaLogin");
-    const areaBoletim = document.getElementById("areaBoletim");
-
-    if (areaLogin) areaLogin.style.display = "none";
-    if (areaBoletim) areaBoletim.style.display = "block";
-
-    atualizarTela();
-
-  } catch (erro) {
-    msgLogin.textContent = "Não foi possível conectar ao servidor. Tente novamente.";
-    msgLogin.className = "msg-status erro";
-  }
-}
-
-/* -------- TABELA DE EDIÇÃO -------- */
-function montarTabelaEdicao() {
-  const corpoEdicao = document.getElementById("corpoEdicao");
-  if (!corpoEdicao) return;
-  corpoEdicao.innerHTML = "";
-
-  disciplinasAtuais.forEach((d, idx) => {
-    const linha = document.createElement("tr");
-
-    const tdNome = document.createElement("td");
-    tdNome.textContent = d.disciplina;
-    linha.appendChild(tdNome);
-
-    const f1 = Array.isArray(d.faltas) ? d.faltas[0] : 0;
-    const f2 = Array.isArray(d.faltas) ? d.faltas[1] : 0;
-    const f3 = Array.isArray(d.faltas) ? d.faltas[2] : 0;
-
-    linha.innerHTML += `
-      <td><input type="text" class="campo-edicao campo-nota" data-idx="${idx}" data-field="tri1" value="${d.tri1 !== null && d.tri1 !== undefined ? String(d.tri1).replace('.', ',') : ''}" /></td>
-      <td><input type="text" class="campo-edicao campo-nota" data-idx="${idx}" data-field="tri2" value="${d.tri2 !== null && d.tri2 !== undefined ? String(d.tri2).replace('.', ',') : ''}" /></td>
-      <td><input type="text" class="campo-edicao campo-nota" data-idx="${idx}" data-field="tri3" value="${d.tri3 !== null && d.tri3 !== undefined ? String(d.tri3).replace('.', ',') : ''}" /></td>
-      <td><input type="text" class="campo-edicao campo-falta" data-idx="${idx}" data-field="f1" value="${f1 !== null && f1 !== undefined ? f1 : 0}" /></td>
-      <td><input type="text" class="campo-edicao campo-falta" data-idx="${idx}" data-field="f2" value="${f2 !== null && f2 !== undefined ? f2 : 0}" /></td>
-      <td><input type="text" class="campo-edicao campo-falta" data-idx="${idx}" data-field="f3" value="${f3 !== null && f3 !== undefined ? f3 : 0}" /></td>
-    `;
-
-    corpoEdicao.appendChild(linha);
-  });
-}
-
-function validarNotaInput(valStr) {
-  if (valStr.trim() === "") return { valido: true, valor: null };
-  const strLimpa = valStr.trim().replace(",", ".");
-  const num = Number(strLimpa);
-  if (isNaN(num) || num < 0 || num > 10) {
-    return { valido: false };
-  }
-  return { valido: true, valor: num };
-}
-
-function validarFaltaInput(valStr) {
-  if (valStr.trim() === "") return { valido: false };
-  const strLimpa = valStr.trim();
-  if (!/^\d+$/.test(strLimpa)) {
-    return { valido: false };
-  }
-  const num = Number(strLimpa);
-  if (num < 0) return { valido: false };
-  return { valido: true, valor: num };
-}
-
-async function salvarEdicao() {
-  const msgEdicao = document.getElementById("msgEdicao");
-  if (!msgEdicao) return;
-  msgEdicao.textContent = "";
-  msgEdicao.className = "msg-status";
-
-  const inputs = document.querySelectorAll(".campo-edicao");
-  let temErro = false;
-
-  inputs.forEach((input) => input.classList.remove("campo-invalido"));
-
-  const novasDisciplinas = JSON.parse(JSON.stringify(disciplinasAtuais));
-
-  inputs.forEach((input) => {
-    const idx = Number(input.getAttribute("data-idx"));
-    const field = input.getAttribute("data-field");
-    const val = input.value;
-
-    if (field.startsWith("tri")) {
-      const res = validarNotaInput(val);
-      if (!res.valido) {
-        input.classList.add("campo-invalido");
-        temErro = true;
-      } else {
-        novasDisciplinas[idx][field] = res.valor;
-      }
-    } else if (field.startsWith("f")) {
-      const res = validarFaltaInput(val);
-      if (!res.valido) {
-        input.classList.add("campo-invalido");
-        temErro = true;
-      } else {
-        const pos = field === "f1" ? 0 : field === "f2" ? 1 : 2;
-        if (!Array.isArray(novasDisciplinas[idx].faltas)) {
-          novasDisciplinas[idx].faltas = [0, 0, 0];
-        }
-        novasDisciplinas[idx].faltas[pos] = res.valor;
-      }
-    }
-  });
-
-  if (temErro) {
-    msgEdicao.textContent = "Existem campos com valores inválidos. Notas devem ser de 0 a 10 e faltas números inteiros ≥ 0.";
-    msgEdicao.className = "msg-status erro";
-    return;
+  } catch (e) {
+    throw new Error("Não foi possível conectar ao servidor. Tente novamente.");
   }
 
-  msgEdicao.textContent = "Salvando...";
-  msgEdicao.className = "msg-status info";
+  if (!resposta.ok) {
+    throw new Error(mensagemPorStatus(resposta.status));
+  }
 
+  let json;
   try {
-    const resposta = await fetch(`${CONFIG_ALUNO.apiUrl}/api/v1/boletins/salvar`, {
+    json = await resposta.json();
+  } catch (e) {
+    json = {};
+  }
+
+  // Regra: se "dados" for null, usa dados locais. Caso contrário, usa exatamente o que veio.
+  let lista;
+  if (json && json.dados && Array.isArray(json.dados.disciplinas)) {
+    lista = json.dados.disciplinas;
+  } else {
+    lista = dadosBrutos;
+  }
+
+  return lista;
+}
+
+/* -------- SALVAR BOLETIM (PUT) -------- */
+async function salvarBoletim() {
+  if (!pinSessao) return;
+
+  const status = document.getElementById("statusSalvar");
+  if (status) status.textContent = "Salvando...";
+
+  const dadosEditados = coletarDadosEditados();
+
+  const url = CONFIG_ALUNO.apiUrl + "/api/v1/boletins/salvar";
+
+  let resposta;
+  try {
+    resposta = await fetch(url, {
       method: "PUT",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
         turma: CONFIG_ALUNO.turma,
         numero_chamada: CONFIG_ALUNO.numeroChamada,
         pin: pinSessao,
-        dados: {
-          disciplinas: novasDisciplinas
-        }
+        dados: { disciplinas: dadosEditados }
       })
     });
+  } catch (e) {
+    if (status) status.textContent = "Não foi possível conectar ao servidor. Tente novamente.";
+    return;
+  }
 
-    if (!resposta.ok) {
-      msgEdicao.textContent = "Erro ao salvar alterações no servidor. Tente novamente.";
-      msgEdicao.className = "msg-status erro";
+  if (!resposta.ok) {
+    if (status) status.textContent = mensagemPorStatus(resposta.status);
+    return;
+  }
+
+  // Sucesso: atualiza estado local e sai do modo edição
+  disciplinasProcessadas = processarDisciplinas(dadosEditados);
+  modoEdicao = false;
+  alternarBotoesEdicao();
+  reconstruirTela();
+
+  if (status) status.textContent = "Dados salvos com sucesso.";
+}
+
+/* -------- ALTERNAR MODO EDIÇÃO -------- */
+function alternarBotoesEdicao() {
+  const btnAlterar = document.getElementById("botaoAlterar");
+  const btnSalvar = document.getElementById("botaoSalvar");
+  const btnCancelar = document.getElementById("botaoCancelar");
+  const status = document.getElementById("statusSalvar");
+
+  if (modoEdicao) {
+    btnAlterar.classList.add("oculto");
+    btnSalvar.classList.remove("oculto");
+    btnCancelar.classList.remove("oculto");
+  } else {
+    btnAlterar.classList.remove("oculto");
+    btnSalvar.classList.add("oculto");
+    btnCancelar.classList.add("oculto");
+    if (status) status.textContent = "";
+  }
+}
+
+/* -------- INICIALIZAÇÃO DA TELA DE ACESSO -------- */
+function iniciarAcesso() {
+  const campoPin = document.getElementById("campoPin");
+  const botaoEntrar = document.getElementById("botaoEntrar");
+  const mensagem = document.getElementById("mensagemAcesso");
+
+  async function tentarEntrar() {
+    const pin = campoPin.value.trim();
+    if (!pin) {
+      mensagem.textContent = "Digite seu PIN.";
       return;
     }
 
-    disciplinasAtuais = novasDisciplinas;
-    atualizarTela();
+    botaoEntrar.disabled = true;
+    mensagem.textContent = "Entrando...";
 
-    msgEdicao.textContent = "Dados salvos com sucesso.";
-    msgEdicao.className = "msg-status sucesso";
+    try {
+      const lista = await abrirBoletim(pin);
+      pinSessao = pin;
+      campoPin.value = "";
 
-    setTimeout(() => {
-      const areaEdicao = document.getElementById("areaEdicao");
-      if (areaEdicao) areaEdicao.style.display = "none";
-      msgEdicao.textContent = "";
-    }, 1200);
+      disciplinasProcessadas = processarDisciplinas(lista);
+      modoEdicao = false;
 
-  } catch (e) {
-    msgEdicao.textContent = "Não foi possível conectar ao servidor para salvar.";
-    msgEdicao.className = "msg-status erro";
+      document.getElementById("telaAcesso").classList.add("oculto");
+      document.getElementById("appBoletim").classList.remove("oculto");
+
+      alternarBotoesEdicao();
+      reconstruirTela();
+    } catch (e) {
+      mensagem.textContent = e.message;
+      botaoEntrar.disabled = false;
+    }
   }
+
+  botaoEntrar.addEventListener("click", tentarEntrar);
+  campoPin.addEventListener("keydown", (ev) => {
+    if (ev.key === "Enter") tentarEntrar();
+  });
+
+  // Botões de ação
+  document.getElementById("botaoAlterar").addEventListener("click", () => {
+    modoEdicao = true;
+    alternarBotoesEdicao();
+    reconstruirTela();
+  });
+
+  document.getElementById("botaoCancelar").addEventListener("click", () => {
+    modoEdicao = false;
+    alternarBotoesEdicao();
+    reconstruirTela();
+  });
+
+  document.getElementById("botaoSalvar").addEventListener("click", salvarBoletim);
 }
 
-/* -------- INICIALIZAÇÃO DE EVENTOS -------- */
-function inicializarEventos() {
-  const btnEntrar = document.getElementById("btnEntrar");
-  const campoPin = document.getElementById("campoPin");
-  const btnEditar = document.getElementById("btnEditar");
-  const btnCancelar = document.getElementById("btnCancelar");
-  const btnSalvar = document.getElementById("btnSalvar");
-
-  if (btnEntrar) {
-    btnEntrar.addEventListener("click", realizarLogin);
-  }
-
-  if (campoPin) {
-    campoPin.addEventListener("keypress", (e) => {
-      if (e.key === "Enter") realizarLogin();
-    });
-  }
-
-  if (btnEditar) {
-    btnEditar.addEventListener("click", () => {
-      montarTabelaEdicao();
-      const areaEdicao = document.getElementById("areaEdicao");
-      const msgEdicao = document.getElementById("msgEdicao");
-      if (areaEdicao) areaEdicao.style.display = "block";
-      if (msgEdicao) msgEdicao.textContent = "";
-    });
-  }
-
-  if (btnCancelar) {
-    btnCancelar.addEventListener("click", () => {
-      const areaEdicao = document.getElementById("areaEdicao");
-      if (areaEdicao) areaEdicao.style.display = "none";
-    });
-  }
-
-  if (btnSalvar) {
-    btnSalvar.addEventListener("click", salvarEdicao);
-  }
-}
-
-if (document.readyState === "loading") {
-  document.addEventListener("DOMContentLoaded", inicializarEventos);
-} else {
-  inicializarEventos();
-}
+/* -------- INICIAR TUDO -------- */
+iniciarAcesso();
