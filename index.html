@@ -51,6 +51,33 @@
 
       <section class="cards-resumo" id="cardsResumo"></section>
 
+      <!-- ===== GRÁFICOS ===== -->
+      <section class="area-graficos" id="areaGraficos">
+
+        <article class="grafico-card">
+          <h2>Média por disciplina</h2>
+          <div class="grafico-container grafico-container-medias">
+            <canvas id="graficoMediasDisciplinas"></canvas>
+          </div>
+        </article>
+
+        <article class="grafico-card">
+          <h2>Evolução da média geral</h2>
+          <div class="grafico-container">
+            <canvas id="graficoEvolucaoTrimestres"></canvas>
+          </div>
+        </article>
+
+        <article class="grafico-card" id="cardFaltas">
+          <h2>Faltas por trimestre</h2>
+          <div id="estadoFaltas" class="estado-faltas"></div>
+          <div class="grafico-container">
+            <canvas id="graficoFaltasTrimestres"></canvas>
+          </div>
+        </article>
+
+      </section>
+
       <section class="area-tabela">
         <h2>Notas por disciplina</h2>
 
@@ -80,6 +107,7 @@
 
   </div>
 
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
