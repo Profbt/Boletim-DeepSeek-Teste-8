@@ -16,6 +16,10 @@ let pinSessao = null;
 let disciplinasProcessadas = [];
 let modoEdicao = false;
 
+/* -------- INSTÂNCIAS DOS GRÁFICOS -------- */
+let graficoMedias = null;
+let graficoEvolucao = null;
+
 /* -------- DADOS BRUTOS LOCAIS (fallback) --------
    tri1 = 1º trimestre
    tri2 = 2º trimestre
@@ -36,7 +40,7 @@ const dadosBrutos = [
   { disciplina: "Redação e Leitura",           tri1: 75, tri2: 77,  tri3: null, faltas: [3, 2, 0] },
   { disciplina: "Pensamento Lógico",           tri1: 75, tri2: 72,  tri3: null, faltas: [0, 3, 0] },
   { disciplina: "Literatura Arte e Movimento", tri1: 78, tri2: 88,  tri3: null, faltas: [1, 2, 0] },
-  { disciplina: "Práticas Experimentais",      tri1: 55, tri2: 71,  tri3: null, faltas: [4, 1, 0] }
+  { disciplina: "Práticas Experimentais",       tri1: 55, tri2: 71,  tri3: null, faltas: [4, 1, 0] }
 ];
 
 /* Frequência fictícia apenas para demonstração. */
@@ -300,11 +304,135 @@ function montarCards() {
   });
 }
 
+/* -------- MONTAR / ATUALIZAR GRÁFICOS -------- */
+function atualizarGraficos() {
+  if (typeof Chart === "undefined") return;
+
+  const canvasMedias = document.getElementById("graficoMediasDisciplinas");
+  const canvasEvolucao = document.getElementById("graficoEvolucaoTrimestres");
+
+  if (!canvasMedias || !canvasEvolucao) return;
+
+  // Destruir instâncias anteriores se existirem
+  if (graficoMedias) {
+    graficoMedias.destroy();
+  }
+  if (graficoEvolucao) {
+    graficoEvolucao.destroy();
+  }
+
+  /* --- GRÁFICO 1: MÉDIA POR DISCIPLINA --- */
+  const rotulosDisciplinas = disciplinasProcessadas.map((d) => d.disciplina);
+  const dadosMedias = disciplinasProcessadas.map((d) => d.media);
+
+  graficoMedias = new Chart(canvasMedias, {
+    type: "bar",
+    data: {
+      labels: rotulosDisciplinas,
+      datasets: [
+        {
+          label: "Média",
+          data: dadosMedias,
+          backgroundColor: "rgba(255, 122, 24, 0.85)",
+          borderColor: "#e0650a",
+          borderWidth: 1,
+          borderRadius: 4
+        }
+      ]
+    },
+    options: {
+      indexAxis: "y",
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          callbacks: {
+            label: function (context) {
+              const valor = context.raw;
+              if (valor === null || valor === undefined) return " Sem nota";
+              return " Média: " + valor.toFixed(1).replace(".", ",");
+            }
+          }
+        }
+      },
+      scales: {
+        x: {
+          min: 0,
+          max: 10,
+          ticks: { stepSize: 1 }
+        },
+        y: {
+          ticks: {
+            font: { size: 11 }
+          }
+        }
+      }
+    }
+  });
+
+  /* --- GRÁFICO 2: EVOLUÇÃO DA MÉDIA GERAL --- */
+  const tris = ["tri1", "tri2", "tri3"];
+  const mediasTrimestrais = tris.map((chaveTri) => {
+    const notasValidas = disciplinasProcessadas
+      .map((d) => d[chaveTri])
+      .filter((nota) => nota !== null && nota !== undefined);
+
+    if (notasValidas.length === 0) return null;
+    return notasValidas.reduce((soma, n) => soma + n, 0) / notasValidas.length;
+  });
+
+  graficoEvolucao = new Chart(canvasEvolucao, {
+    type: "line",
+    data: {
+      labels: ["1º Tri", "2º Tri", "3º Tri"],
+      datasets: [
+        {
+          label: "Média Geral",
+          data: mediasTrimestrais,
+          borderColor: "#22a06b",
+          backgroundColor: "rgba(34, 160, 107, 0.15)",
+          pointBackgroundColor: "#22a06b",
+          pointRadius: 6,
+          pointHoverRadius: 8,
+          fill: true,
+          tension: 0.2,
+          spanGaps: false
+        }
+      ]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          callbacks: {
+            label: function (context) {
+              const valor = context.raw;
+              if (valor === null || valor === undefined) return " Sem lançamentos";
+              return " Média Geral: " + valor.toFixed(1).replace(".", ",");
+            }
+          }
+        }
+      },
+      scales: {
+        y: {
+          min: 0,
+          max: 10,
+          ticks: { stepSize: 1 }
+        }
+      }
+    }
+  });
+}
+
 /* -------- RECONSTRUIR TELA -------- */
 function reconstruirTela() {
   limparTela();
   montarCards();
   montarTabela();
+  atualizarGraficos();
 }
 
 /* -------- COLETA DE DADOS DA TELA (edição) -------- */
@@ -399,7 +527,7 @@ async function salvarBoletim() {
   let resposta;
   try {
     resposta = await fetch(url, {
-      method: "PUT",
+      method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
         turma: CONFIG_ALUNO.turma,

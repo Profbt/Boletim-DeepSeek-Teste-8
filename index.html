@@ -51,6 +51,22 @@
 
       <section class="cards-resumo" id="cardsResumo"></section>
 
+      <!-- ===== ÁREA DOS GRÁFICOS ===== -->
+      <section class="area-graficos">
+        <div class="card-grafico container-grafico-disciplinas">
+          <h2>Média por disciplina</h2>
+          <div class="wrapper-canvas-disciplinas">
+            <canvas id="graficoMediasDisciplinas"></canvas>
+          </div>
+        </div>
+        <div class="card-grafico">
+          <h2>Evolução da média geral</h2>
+          <div class="wrapper-canvas-evolucao">
+            <canvas id="graficoEvolucaoTrimestres"></canvas>
+          </div>
+        </div>
+      </section>
+
       <section class="area-tabela">
         <h2>Notas por disciplina</h2>
 
@@ -80,6 +96,7 @@
 
   </div>
 
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
